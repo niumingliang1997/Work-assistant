@@ -1,0 +1,12 @@
+三月 30, 2020 3:56:13 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started Fingerprint cleanup
+三月 30, 2020 3:56:13 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished Fingerprint cleanup. 6 ms
+三月 30, 2020 4:45:19 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started Workspace clean-up
+三月 30, 2020 4:45:19 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished Workspace clean-up. 7 ms
+三月 30, 2020 6:42:02 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started telemetry collection
+三月 30, 2020 6:42:02 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished telemetry collection. 5 ms

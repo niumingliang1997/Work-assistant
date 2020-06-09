@@ -1,0 +1,24 @@
+三月 28, 2020 3:56:11 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started Fingerprint cleanup
+三月 28, 2020 3:56:11 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished Fingerprint cleanup. 5 ms
+三月 28, 2020 4:45:17 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started Workspace clean-up
+三月 28, 2020 4:45:17 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished Workspace clean-up. 5 ms
+三月 28, 2020 6:42:00 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started telemetry collection
+三月 28, 2020 6:42:00 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished telemetry collection. 4 ms
+三月 28, 2020 11:02:35 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started Download metadata
+三月 28, 2020 11:02:36 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+三月 28, 2020 11:02:37 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+三月 28, 2020 11:02:52 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.plugins.gradle.GradleInstaller
+三月 28, 2020 11:03:25 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tools.JDKInstaller
+三月 28, 2020 11:03:25 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished Download metadata. 50,551 ms

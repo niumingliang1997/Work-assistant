@@ -1,0 +1,2 @@
+127.0.0.1 - - [14/Apr/2020:09:29:34 +0800] "POST /jenkins/ajaxBuildQueue HTTP/1.1" 403 656
+127.0.0.1 - - [14/Apr/2020:09:29:34 +0800] "POST /jenkins/ajaxExecutors HTTP/1.1" 403 656

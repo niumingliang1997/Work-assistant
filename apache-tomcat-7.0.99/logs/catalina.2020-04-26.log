@@ -1,0 +1,56 @@
+四月 26, 2020 4:49:52 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started Download metadata
+四月 26, 2020 4:49:52 下午 hudson.util.Retrier start
+信息: Attempt #1 to do the action check updates server
+四月 26, 2020 4:49:52 下午 hudson.util.Retrier start
+信息: The attempt #1 to do the action check updates server failed with an allowed exception:
+java.net.SocketException: No buffer space available (maximum connections reached?): connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:83)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at hudson.model.DownloadService.loadJSON(DownloadService.java:114)
+	at hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:185)
+	at hudson.PluginManager.checkUpdatesServer(PluginManager.java:1765)
+	at hudson.util.Retrier.start(Retrier.java:62)
+	at hudson.PluginManager.doCheckUpdatesServer(PluginManager.java:1736)
+	at jenkins.DailyCheck.execute(DailyCheck.java:93)
+	at hudson.model.AsyncPeriodicWork.lambda$doRun$0(AsyncPeriodicWork.java:100)
+	at java.lang.Thread.run(Thread.java:748)
+
+四月 26, 2020 4:49:52 下午 hudson.util.Retrier start
+信息: Calling the listener of the allowed exception 'No buffer space available (maximum connections reached?): connect' at the attempt #1 to do the action check updates server
+四月 26, 2020 4:49:52 下午 hudson.util.Retrier start
+信息: Attempted the action check updates server for 1 time(s) with no success
+四月 26, 2020 4:49:52 下午 hudson.PluginManager doCheckUpdatesServer
+严重: Error checking update sites for 1 attempt(s). Last exception was: SocketException: No buffer space available (maximum connections reached?): connect
+四月 26, 2020 4:49:52 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished Download metadata. 38 ms
+四月 26, 2020 7:34:36 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started Fingerprint cleanup
+四月 26, 2020 7:34:36 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished Fingerprint cleanup. 7 ms
+四月 26, 2020 9:03:16 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started Workspace clean-up
+四月 26, 2020 9:03:16 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished Workspace clean-up. 9 ms
+四月 26, 2020 10:23:46 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started telemetry collection
+四月 26, 2020 10:23:46 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished telemetry collection. 7 ms

@@ -1,0 +1,2429 @@
+三月 25, 2020 12:00:39 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started telemetry collection
+三月 25, 2020 12:00:39 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished telemetry collection. 3 ms
+三月 25, 2020 5:12:20 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started Workspace clean-up
+三月 25, 2020 5:12:20 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished Workspace clean-up. 1 ms
+三月 25, 2020 9:34:40 上午 hudson.util.Retrier start
+信息: Attempt #1 to do the action check updates server
+三月 25, 2020 9:36:14 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+三月 25, 2020 9:36:15 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+三月 25, 2020 9:36:36 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tools.JDKInstaller
+三月 25, 2020 9:36:36 上午 hudson.util.Retrier start
+信息: Performed the action check updates server successfully at the attempt #1
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server.服务器版本:     Apache Tomcat/7.0.99
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器构建:            Dec 11 2019 13:15:59 UTC
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器版本号(：7.0.99.0
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS.版本:               10.0
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 架构:                  amd64
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java 环境变量:         C:\Program Files\Java\jdk1.8.0_202\jre
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM 版本:              1.8.0_202-b08
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM.供应商:            Oracle Corporation
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\apache-tomcat-7.0.99
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\apache-tomcat-7.0.99
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=E:\apache-tomcat-7.0.99\conf\logging.properties
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=E:\apache-tomcat-7.0.99
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=E:\apache-tomcat-7.0.99
+三月 25, 2020 9:51:24 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=E:\apache-tomcat-7.0.99\temp
+三月 25, 2020 9:51:24 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+三月 25, 2020 9:51:24 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+三月 25, 2020 9:51:24 上午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+三月 25, 2020 9:51:26 上午 org.apache.coyote.AbstractProtocol init
+信息: 初始化协议处理器 ["http-apr-8080"]
+三月 25, 2020 9:51:26 上午 org.apache.coyote.AbstractProtocol init
+信息: 初始化协议处理器 ["ajp-apr-8009"]
+三月 25, 2020 9:51:26 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 2616 ms
+三月 25, 2020 9:51:26 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Catalina]
+三月 25, 2020 9:51:26 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.99
+三月 25, 2020 9:51:26 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive [E:\apache-tomcat-7.0.99\webapps\jenkins.war]
+三月 25, 2020 9:51:29 上午 org.apache.catalina.deploy.WebXml setVersion
+警告: Unknown version string [3.1]. Default version will be used.
+三月 25, 2020 9:51:34 上午 org.apache.catalina.startup.ContextConfig validateSecurityRoles
+警告: 在标签<auth-constraint>的子标签<security-role>中没有定义角色名[**]
+三月 25, 2020 9:51:35 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+三月 25, 2020 9:51:35 上午 hudson.WebAppMain contextInitialized
+信息: Jenkins home directory: C:\Users\Windows\.jenkins found at: $user.home/.jenkins
+三月 25, 2020 9:51:36 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive [E:\apache-tomcat-7.0.99\webapps\jenkins.war] has finished in [9,783] ms
+三月 25, 2020 9:51:36 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: 把web 应用程序部署到目录 [E:\apache-tomcat-7.0.99\webapps\docs]
+三月 25, 2020 9:51:36 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory [E:\apache-tomcat-7.0.99\webapps\docs] has finished in [164] ms
+三月 25, 2020 9:51:36 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: 把web 应用程序部署到目录 [E:\apache-tomcat-7.0.99\webapps\examples]
+三月 25, 2020 9:51:37 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+三月 25, 2020 9:51:37 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory [E:\apache-tomcat-7.0.99\webapps\examples] has finished in [1,090] ms
+三月 25, 2020 9:51:37 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: 把web 应用程序部署到目录 [E:\apache-tomcat-7.0.99\webapps\host-manager]
+三月 25, 2020 9:51:37 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory [E:\apache-tomcat-7.0.99\webapps\host-manager] has finished in [47] ms
+三月 25, 2020 9:51:37 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: 把web 应用程序部署到目录 [E:\apache-tomcat-7.0.99\webapps\manager]
+三月 25, 2020 9:51:37 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory [E:\apache-tomcat-7.0.99\webapps\manager] has finished in [32] ms
+三月 25, 2020 9:51:37 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: 把web 应用程序部署到目录 [E:\apache-tomcat-7.0.99\webapps\ROOT]
+三月 25, 2020 9:51:37 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory [E:\apache-tomcat-7.0.99\webapps\ROOT] has finished in [49] ms
+三月 25, 2020 9:51:37 上午 org.apache.coyote.AbstractProtocol start
+信息: 开始协议处理句柄["http-apr-8080"]
+三月 25, 2020 9:51:37 上午 org.apache.coyote.AbstractProtocol start
+信息: 开始协议处理句柄["ajp-apr-8009"]
+三月 25, 2020 9:51:37 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 11559 ms
+三月 25, 2020 9:51:40 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+三月 25, 2020 9:51:40 上午 jenkins.bouncycastle.api.SecurityProviderInitializer addSecurityProvider
+信息: Initializing Bouncy Castle security provider.
+三月 25, 2020 9:51:41 上午 jenkins.bouncycastle.api.SecurityProviderInitializer addSecurityProvider
+信息: Bouncy Castle security provider initialized.
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin CCM Plug-in v3.2 (ccm)
+java.io.IOException: CCM Plug-in version 3.2 failed to load.
+ - analysis-core version 1.94 is missing. To fix, install version 1.94 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline: Groovy v2.80 (workflow-cps)
+java.io.IOException: Pipeline: Groovy version 2.80 failed to load.
+ - workflow-support version 3.3 is missing. To fix, install version 3.3 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline: Job v2.37 (workflow-job)
+java.io.IOException: Pipeline: Job version 2.37 failed to load.
+ - workflow-support version 3.3 is missing. To fix, install version 3.3 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline: Declarative Extension Points API v1.6.0 (pipeline-model-extensions)
+java.io.IOException: Pipeline: Declarative Extension Points API version 1.6.0 failed to load.
+ - Pipeline: Groovy version 2.80 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline: Nodes and Processes v2.35 (workflow-durable-task-step)
+java.io.IOException: Pipeline: Nodes and Processes version 2.35 failed to load.
+ - workflow-support version 3.3 is missing. To fix, install version 3.3 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline: Basic Steps v2.19 (workflow-basic-steps)
+java.io.IOException: Pipeline: Basic Steps version 2.19 failed to load.
+ - Pipeline: Nodes and Processes version 2.35 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Docker Pipeline v1.23 (docker-workflow)
+java.io.IOException: Docker Pipeline version 1.23 failed to load.
+ - Pipeline: Basic Steps version 2.19 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Gradle Plugin v1.36 (gradle)
+java.io.IOException: Gradle Plugin version 1.36 failed to load.
+ - Pipeline: Groovy version 2.80 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Lockable Resources plugin v2.7 (lockable-resources)
+java.io.IOException: Lockable Resources plugin version 2.7 failed to load.
+ - workflow-support version 2.12 is missing. To fix, install version 2.12 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Jenkins Subversion Plug-in v2.13.1 (subversion)
+java.io.IOException: Jenkins Subversion Plug-in version 2.13.1 failed to load.
+ - mapdb-api version 1.0.9.0 is missing. To fix, install version 1.0.9.0 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline: Build Step v2.12 (pipeline-build-step)
+java.io.IOException: Pipeline: Build Step version 2.12 failed to load.
+ - workflow-support version 3.1 is missing. To fix, install version 3.1 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline: Shared Groovy Libraries v2.16 (workflow-cps-global-lib)
+java.io.IOException: Pipeline: Shared Groovy Libraries version 2.16 failed to load.
+ - Pipeline: Groovy version 2.80 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline: GitHub Groovy Libraries v1.0 (pipeline-github-lib)
+java.io.IOException: Pipeline: GitHub Groovy Libraries version 1.0 failed to load.
+ - Pipeline: Shared Groovy Libraries version 2.16 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline: Input Step v2.11 (pipeline-input-step)
+java.io.IOException: Pipeline: Input Step version 2.11 failed to load.
+ - workflow-support version 3.3 is missing. To fix, install version 3.3 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline Graph Analysis Plugin v1.10 (pipeline-graph-analysis)
+java.io.IOException: Pipeline Graph Analysis Plugin version 1.10 failed to load.
+ - Pipeline: Groovy version 2.80 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline: Declarative Agent API v1.1.1 (pipeline-model-declarative-agent)
+java.io.IOException: Pipeline: Declarative Agent API version 1.1.1 failed to load.
+ - Pipeline: Declarative Extension Points API version 1.6.0 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline: Multibranch v2.21 (workflow-multibranch)
+java.io.IOException: Pipeline: Multibranch version 2.21 failed to load.
+ - Pipeline: Groovy version 2.80 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline: Declarative v1.6.0 (pipeline-model-definition)
+java.io.IOException: Pipeline: Declarative version 1.6.0 failed to load.
+ - Pipeline: Basic Steps version 2.19 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline: REST API Plugin v2.13 (pipeline-rest-api)
+java.io.IOException: Pipeline: REST API Plugin version 2.13 failed to load.
+ - Pipeline: Job version 2.37 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline: Stage View Plugin v2.13 (pipeline-stage-view)
+java.io.IOException: Pipeline: Stage View Plugin version 2.13 failed to load.
+ - Pipeline: REST API Plugin version 2.13 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:41 上午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline v2.6 (workflow-aggregator)
+java.io.IOException: Pipeline version 2.6 failed to load.
+ - Lockable Resources plugin version 2.7 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+三月 25, 2020 9:51:44 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+三月 25, 2020 9:51:44 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+三月 25, 2020 9:51:44 上午 hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+信息: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+三月 25, 2020 9:51:45 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+三月 25, 2020 9:51:45 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+三月 25, 2020 9:51:45 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started Download metadata
+三月 25, 2020 9:51:45 上午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished Download metadata. 21 ms
+三月 25, 2020 9:51:46 上午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@527088d7: display name [Root WebApplicationContext]; startup date [Wed Mar 25 09:51:46 CST 2020]; root of context hierarchy
+三月 25, 2020 9:51:46 上午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@527088d7]: org.springframework.beans.factory.support.DefaultListableBeanFactory@2b076fc9
+三月 25, 2020 9:51:46 上午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2b076fc9: defining beans [authenticationManager]; root of factory hierarchy
+三月 25, 2020 9:51:46 上午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@59601bff: display name [Root WebApplicationContext]; startup date [Wed Mar 25 09:51:46 CST 2020]; root of context hierarchy
+三月 25, 2020 9:51:46 上午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@59601bff]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4e71c878
+三月 25, 2020 9:51:46 上午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4e71c878: defining beans [filter,legacy]; root of factory hierarchy
+三月 25, 2020 9:51:46 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+三月 25, 2020 9:51:46 上午 hudson.WebAppMain$3 run
+信息: Jenkins is fully up and running
+三月 25, 2020 11:07:49 上午 hudson.PluginManager install
+信息: Starting installation of a batch of 0 plugins plus their dependencies
+三月 25, 2020 11:08:13 上午 hudson.util.Retrier start
+信息: Attempt #1 to do the action check updates server
+三月 25, 2020 11:08:26 上午 hudson.util.Retrier start
+信息: Attempt #1 to do the action check updates server
+三月 25, 2020 11:08:35 上午 hudson.model.UpdateSite$Plugin getNeededDependencies
+警告: Could not find dependency pipeline-input-step of kubesphere-extension
+三月 25, 2020 11:10:56 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+三月 25, 2020 11:10:57 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+三月 25, 2020 11:11:03 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+三月 25, 2020 11:11:04 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+三月 25, 2020 11:11:15 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tools.JDKInstaller
+三月 25, 2020 11:11:15 上午 hudson.util.Retrier start
+信息: Performed the action check updates server successfully at the attempt #1
+三月 25, 2020 11:11:27 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tools.JDKInstaller
+三月 25, 2020 11:11:27 上午 hudson.util.Retrier start
+信息: Performed the action check updates server successfully at the attempt #1
+三月 25, 2020 11:17:27 上午 hudson.init.impl.InstallUncaughtExceptionHandler lambda$init$0
+警告: null
+javax.servlet.ServletException: org.apache.commons.jelly.JellyTagException: jar:file:/E:/apache-tomcat-7.0.99/webapps/jenkins/WEB-INF/lib/jenkins-core-2.210.jar!/hudson/PluginManager/table.jelly:102:76: <j:out> java.io.IOException
+	at org.kohsuke.stapler.Facet$1.dispatch(Facet.java:247)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:747)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:878)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:169)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:747)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:878)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:676)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at jenkins.security.ResourceDomainFilter.doFilter(ResourceDomainFilter.java:76)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:151)
+	at jenkins.telemetry.impl.UserLanguages$AcceptLanguageFilter.doFilter(UserLanguages.java:128)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:151)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:105)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:51)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.providers.anonymous.AnonymousProcessingFilter.doFilter(AnonymousProcessingFilter.java:125)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.rememberme.RememberMeProcessingFilter.doFilter(RememberMeProcessingFilter.java:142)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.AbstractProcessingFilter.doFilter(AbstractProcessingFilter.java:271)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:93)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.context.HttpSessionContextIntegrationFilter.doFilter(HttpSessionContextIntegrationFilter.java:249)
+	at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:67)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1195)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2532)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.jelly.JellyTagException: jar:file:/E:/apache-tomcat-7.0.99/webapps/jenkins/WEB-INF/lib/jenkins-core-2.210.jar!/hudson/PluginManager/table.jelly:102:76: <j:out> java.io.IOException
+	at org.apache.commons.jelly.impl.TagScript.handleException(TagScript.java:726)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:279)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ForEachTag.doTag(ForEachTag.java:150)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.WhenTag.doTag(WhenTag.java:46)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:95)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:63)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:53)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:56)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:43)
+	at org.kohsuke.stapler.Facet$1.dispatch(Facet.java:238)
+	... 70 more
+Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:410)
+	at org.apache.tomcat.util.buf.ByteChunk.flushBuffer(ByteChunk.java:451)
+	at org.apache.tomcat.util.buf.ByteChunk.append(ByteChunk.java:352)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:435)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:423)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:91)
+	at com.jcraft.jzlib.DeflaterOutputStream.deflate(DeflaterOutputStream.java:144)
+	at com.jcraft.jzlib.DeflaterOutputStream.write(DeflaterOutputStream.java:102)
+	at org.kohsuke.stapler.compression.FilterServletOutputStream.write(FilterServletOutputStream.java:41)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker$1.write(DefaultScriptInvoker.java:133)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:254)
+	at org.dom4j.io.XMLWriter.flush(XMLWriter.java:275)
+	at org.apache.commons.jelly.XMLOutput.flush(XMLOutput.java:127)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	... 133 more
+Caused by: java.io.IOException
+	at org.apache.coyote.http11.InternalAprOutputBuffer.flushBuffer(InternalAprOutputBuffer.java:205)
+	at org.apache.coyote.http11.InternalAprOutputBuffer.access$100(InternalAprOutputBuffer.java:37)
+	at org.apache.coyote.http11.InternalAprOutputBuffer$SocketOutputBuffer.doWrite(InternalAprOutputBuffer.java:234)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:118)
+	at org.apache.coyote.http11.AbstractOutputBuffer.doWrite(AbstractOutputBuffer.java:192)
+	at org.apache.coyote.Response.doWrite(Response.java:578)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:405)
+	... 151 more
+
+三月 25, 2020 11:17:56 上午 hudson.model.UpdateCenter$PluginDowngradeJob run
+信息: Starting the downgrade of git on behalf of niumingliang
+三月 25, 2020 11:17:56 上午 hudson.model.UpdateCenter$PluginDowngradeJob run
+信息: Downgrade successful: git
+三月 25, 2020 11:18:09 上午 hudson.model.UpdateCenter$PluginDowngradeJob run
+信息: Starting the downgrade of branch-api on behalf of niumingliang
+三月 25, 2020 11:18:09 上午 hudson.model.UpdateCenter$PluginDowngradeJob run
+信息: Downgrade successful: branch-api
+三月 25, 2020 11:18:35 上午 hudson.model.UpdateCenter$PluginDowngradeJob run
+信息: Starting the downgrade of pipeline-stage-tags-metadata on behalf of niumingliang
+三月 25, 2020 11:18:35 上午 hudson.model.UpdateCenter$PluginDowngradeJob run
+信息: Downgrade successful: pipeline-stage-tags-metadata
+三月 25, 2020 11:18:38 上午 hudson.model.UpdateCenter$PluginDowngradeJob run
+信息: Starting the downgrade of pipeline-stage-step on behalf of niumingliang
+三月 25, 2020 11:18:38 上午 hudson.model.UpdateCenter$PluginDowngradeJob run
+信息: Downgrade successful: pipeline-stage-step
+三月 25, 2020 11:18:41 上午 hudson.model.UpdateCenter$PluginDowngradeJob run
+信息: Starting the downgrade of pipeline-milestone-step on behalf of niumingliang
+三月 25, 2020 11:18:41 上午 hudson.model.UpdateCenter$PluginDowngradeJob run
+信息: Downgrade successful: pipeline-milestone-step
+三月 25, 2020 11:18:44 上午 hudson.model.UpdateCenter$PluginDowngradeJob run
+信息: Starting the downgrade of workflow-api on behalf of niumingliang
+三月 25, 2020 11:18:44 上午 hudson.model.UpdateCenter$PluginDowngradeJob run
+信息: Downgrade successful: workflow-api
+三月 25, 2020 11:23:10 上午 hudson.PluginManager install
+信息: Starting installation of a batch of 1 plugins plus their dependencies
+三月 25, 2020 11:23:10 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of publish-over for plugin publish-over-ssh
+三月 25, 2020 11:23:10 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of publish-over on behalf of niumingliang
+三月 25, 2020 11:23:12 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading publish-over
+三月 25, 2020 11:23:13 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: publish-over
+三月 25, 2020 11:23:13 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of publish-over-ssh on behalf of niumingliang
+三月 25, 2020 11:23:14 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading publish-over-ssh
+三月 25, 2020 11:23:20 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: publish-over-ssh
+三月 25, 2020 11:23:20 上午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completing installing of plugin batch…
+三月 25, 2020 11:23:20 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+三月 25, 2020 11:23:20 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+三月 25, 2020 11:23:20 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+三月 25, 2020 11:23:20 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+三月 25, 2020 11:23:20 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+三月 25, 2020 11:23:20 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+三月 25, 2020 11:23:20 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+三月 25, 2020 11:23:20 上午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completed installation of 2 plugins in 9.9 sec
+三月 25, 2020 11:31:48 上午 hudson.PluginManager install
+信息: Starting installation of a batch of 1 plugins plus their dependencies
+三月 25, 2020 11:31:48 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of secondary-timestamper-plugin on behalf of niumingliang
+三月 25, 2020 11:31:51 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading secondary-timestamper-plugin
+三月 25, 2020 11:31:51 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: secondary-timestamper-plugin
+三月 25, 2020 11:31:51 上午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completing installing of plugin batch…
+三月 25, 2020 11:31:51 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+三月 25, 2020 11:31:51 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+三月 25, 2020 11:31:51 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+三月 25, 2020 11:31:51 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+三月 25, 2020 11:31:51 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+三月 25, 2020 11:31:51 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+三月 25, 2020 11:31:51 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+三月 25, 2020 11:31:51 上午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completed installation of 1 plugins in 2.9 sec
+三月 25, 2020 11:34:30 上午 hudson.PluginManager install
+信息: Starting installation of a batch of 1 plugins plus their dependencies
+三月 25, 2020 11:34:30 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of workflow-durable-task-step for plugin ws-cleanup
+三月 25, 2020 11:34:30 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of workflow-support for plugin workflow-durable-task-step
+三月 25, 2020 11:34:30 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of workflow-support on behalf of niumingliang
+三月 25, 2020 11:34:34 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading workflow-support
+三月 25, 2020 11:35:24 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: workflow-support
+三月 25, 2020 11:35:24 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of workflow-durable-task-step on behalf of niumingliang
+三月 25, 2020 11:35:26 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading workflow-durable-task-step
+三月 25, 2020 11:35:28 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: workflow-durable-task-step
+三月 25, 2020 11:35:28 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of ws-cleanup on behalf of niumingliang
+三月 25, 2020 11:35:30 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading ws-cleanup
+三月 25, 2020 11:37:47 上午 hudson.init.impl.InstallUncaughtExceptionHandler lambda$init$0
+警告: null
+javax.servlet.ServletException: org.apache.commons.jelly.JellyTagException: jar:file:/E:/apache-tomcat-7.0.99/webapps/jenkins/WEB-INF/lib/jenkins-core-2.210.jar!/hudson/PluginManager/table.jelly:102:76: <j:out> java.io.IOException
+	at org.kohsuke.stapler.Facet$1.dispatch(Facet.java:247)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:747)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:878)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:169)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:747)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:878)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:676)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at jenkins.security.ResourceDomainFilter.doFilter(ResourceDomainFilter.java:76)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:151)
+	at jenkins.telemetry.impl.UserLanguages$AcceptLanguageFilter.doFilter(UserLanguages.java:128)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:151)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:105)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:51)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.providers.anonymous.AnonymousProcessingFilter.doFilter(AnonymousProcessingFilter.java:125)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.rememberme.RememberMeProcessingFilter.doFilter(RememberMeProcessingFilter.java:142)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.AbstractProcessingFilter.doFilter(AbstractProcessingFilter.java:271)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:93)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.context.HttpSessionContextIntegrationFilter.doFilter(HttpSessionContextIntegrationFilter.java:249)
+	at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:67)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1195)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2532)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.jelly.JellyTagException: jar:file:/E:/apache-tomcat-7.0.99/webapps/jenkins/WEB-INF/lib/jenkins-core-2.210.jar!/hudson/PluginManager/table.jelly:102:76: <j:out> java.io.IOException
+	at org.apache.commons.jelly.impl.TagScript.handleException(TagScript.java:726)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:279)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ForEachTag.doTag(ForEachTag.java:150)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.WhenTag.doTag(WhenTag.java:46)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:95)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:63)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:53)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:56)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:43)
+	at org.kohsuke.stapler.Facet$1.dispatch(Facet.java:238)
+	... 70 more
+Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:410)
+	at org.apache.tomcat.util.buf.ByteChunk.flushBuffer(ByteChunk.java:451)
+	at org.apache.tomcat.util.buf.ByteChunk.append(ByteChunk.java:352)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:435)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:423)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:91)
+	at com.jcraft.jzlib.DeflaterOutputStream.deflate(DeflaterOutputStream.java:144)
+	at com.jcraft.jzlib.DeflaterOutputStream.write(DeflaterOutputStream.java:102)
+	at org.kohsuke.stapler.compression.FilterServletOutputStream.write(FilterServletOutputStream.java:41)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker$1.write(DefaultScriptInvoker.java:133)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:254)
+	at org.dom4j.io.XMLWriter.flush(XMLWriter.java:275)
+	at org.apache.commons.jelly.XMLOutput.flush(XMLOutput.java:127)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	... 133 more
+Caused by: java.io.IOException
+	at org.apache.coyote.http11.InternalAprOutputBuffer.flushBuffer(InternalAprOutputBuffer.java:205)
+	at org.apache.coyote.http11.InternalAprOutputBuffer.access$100(InternalAprOutputBuffer.java:37)
+	at org.apache.coyote.http11.InternalAprOutputBuffer$SocketOutputBuffer.doWrite(InternalAprOutputBuffer.java:234)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:118)
+	at org.apache.coyote.http11.AbstractOutputBuffer.doWrite(AbstractOutputBuffer.java:192)
+	at org.apache.coyote.Response.doWrite(Response.java:578)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:405)
+	... 151 more
+
+三月 25, 2020 11:39:01 上午 hudson.PluginManager install
+信息: Starting installation of a batch of 1 plugins plus their dependencies
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of pipeline-stage-view for plugin workflow-aggregator
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of pipeline-rest-api for plugin pipeline-stage-view
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of pipeline-graph-analysis for plugin pipeline-rest-api
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of workflow-cps for plugin pipeline-graph-analysis
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of pipeline-input-step for plugin pipeline-graph-analysis
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of workflow-job for plugin pipeline-graph-analysis
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of pipeline-build-step for plugin workflow-aggregator
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of pipeline-model-definition for plugin workflow-aggregator
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of pipeline-model-extensions for plugin pipeline-model-definition
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of pipeline-model-api for plugin pipeline-model-extensions
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of workflow-cps-global-lib for plugin pipeline-model-definition
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of workflow-multibranch for plugin pipeline-model-definition
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of docker-workflow for plugin pipeline-model-definition
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of workflow-basic-steps for plugin docker-workflow
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of pipeline-model-declarative-agent for plugin pipeline-model-definition
+三月 25, 2020 11:39:01 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of lockable-resources for plugin workflow-aggregator
+三月 25, 2020 11:40:43 上午 hudson.PluginManager install
+信息: Starting installation of a batch of 1 plugins plus their dependencies
+三月 25, 2020 11:42:55 上午 hudson.PluginManager install
+信息: Starting installation of a batch of 1 plugins plus their dependencies
+三月 25, 2020 11:46:28 上午 hudson.PluginManager install
+信息: Starting installation of a batch of 10 plugins plus their dependencies
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of icon-shim for plugin github-pullrequest
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of blueocean-pipeline-api-impl for plugin blueocean-git-pipeline
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of blueocean-pipeline-scm-api for plugin blueocean-pipeline-api-impl
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of blueocean-rest for plugin blueocean-pipeline-scm-api
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of blueocean-commons for plugin blueocean-rest
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of pubsub-light for plugin blueocean-pipeline-scm-api
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of htmlpublisher for plugin blueocean-pipeline-api-impl
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of blueocean-rest-impl for plugin blueocean-pipeline-api-impl
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of blueocean-web for plugin blueocean-rest-impl
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of blueocean-core-js for plugin blueocean-web
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of jenkins-design-language for plugin blueocean-core-js
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of variant for plugin blueocean-web
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of blueocean-jwt for plugin blueocean-rest-impl
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of favorite for plugin blueocean-rest-impl
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of forensics-api for plugin git-forensics
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of font-awesome-api for plugin forensics-api
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of plugin-util-api for plugin font-awesome-api
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of bootstrap4-api for plugin forensics-api
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of popper-api for plugin bootstrap4-api
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of jquery3-api for plugin bootstrap4-api
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of echarts-api for plugin forensics-api
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of data-tables-api for plugin forensics-api
+三月 25, 2020 11:46:28 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of ruby-runtime for plugin pry
+三月 25, 2020 11:46:52 上午 hudson.PluginManager install
+信息: Starting installation of a batch of 1 plugins plus their dependencies
+三月 25, 2020 11:46:52 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of mapdb-api for plugin subversion
+三月 25, 2020 11:47:40 上午 hudson.PluginManager install
+信息: Starting installation of a batch of 1 plugins plus their dependencies
+三月 25, 2020 11:48:54 上午 hudson.PluginManager install
+信息: Starting installation of a batch of 1 plugins plus their dependencies
+三月 25, 2020 11:49:27 上午 hudson.PluginManager install
+信息: Starting installation of a batch of 2 plugins plus their dependencies
+三月 25, 2020 11:49:27 上午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of maven-plugin for plugin email-ext-recipients-column
+三月 25, 2020 11:51:03 上午 hudson.PluginManager install
+信息: Starting installation of a batch of 1 plugins plus their dependencies
+三月 25, 2020 11:52:26 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: ws-cleanup
+三月 25, 2020 11:52:26 上午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completing installing of plugin batch…
+三月 25, 2020 11:52:26 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+三月 25, 2020 11:52:26 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+三月 25, 2020 11:52:26 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+三月 25, 2020 11:52:26 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+三月 25, 2020 11:52:26 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+三月 25, 2020 11:52:26 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+三月 25, 2020 11:52:26 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+三月 25, 2020 11:52:26 上午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completed installation of 3 plugins in 17 min
+三月 25, 2020 11:52:26 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of workflow-cps on behalf of niumingliang
+三月 25, 2020 11:52:28 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading workflow-cps
+三月 25, 2020 11:53:15 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: workflow-cps
+三月 25, 2020 11:53:15 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of pipeline-input-step on behalf of niumingliang
+三月 25, 2020 11:53:18 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading pipeline-input-step
+三月 25, 2020 11:53:26 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: pipeline-input-step
+三月 25, 2020 11:53:26 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of workflow-job on behalf of niumingliang
+三月 25, 2020 11:53:28 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading workflow-job
+三月 25, 2020 11:53:31 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: workflow-job
+三月 25, 2020 11:53:31 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of pipeline-graph-analysis on behalf of niumingliang
+三月 25, 2020 11:53:34 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading pipeline-graph-analysis
+三月 25, 2020 11:53:36 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: pipeline-graph-analysis
+三月 25, 2020 11:53:36 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of pipeline-rest-api on behalf of niumingliang
+三月 25, 2020 11:53:38 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading pipeline-rest-api
+三月 25, 2020 11:53:41 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: pipeline-rest-api
+三月 25, 2020 11:53:41 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of pipeline-stage-view on behalf of niumingliang
+三月 25, 2020 11:53:43 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading pipeline-stage-view
+三月 25, 2020 11:53:54 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: pipeline-stage-view
+三月 25, 2020 11:53:54 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of pipeline-build-step on behalf of niumingliang
+三月 25, 2020 11:53:56 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading pipeline-build-step
+三月 25, 2020 11:53:57 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: pipeline-build-step
+三月 25, 2020 11:53:57 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of pipeline-model-api on behalf of niumingliang
+三月 25, 2020 11:53:59 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading pipeline-model-api
+三月 25, 2020 11:56:13 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: pipeline-model-api
+三月 25, 2020 11:56:13 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of pipeline-model-extensions on behalf of niumingliang
+三月 25, 2020 11:56:16 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading pipeline-model-extensions
+三月 25, 2020 11:56:17 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: pipeline-model-extensions
+三月 25, 2020 11:56:17 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of workflow-cps-global-lib on behalf of niumingliang
+三月 25, 2020 11:56:19 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading workflow-cps-global-lib
+三月 25, 2020 11:57:55 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: workflow-cps-global-lib
+三月 25, 2020 11:57:55 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of workflow-multibranch on behalf of niumingliang
+三月 25, 2020 11:57:56 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading workflow-multibranch
+三月 25, 2020 11:58:04 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: workflow-multibranch
+三月 25, 2020 11:58:04 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of workflow-basic-steps on behalf of niumingliang
+三月 25, 2020 11:58:06 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading workflow-basic-steps
+三月 25, 2020 11:58:21 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: workflow-basic-steps
+三月 25, 2020 11:58:21 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of docker-workflow on behalf of niumingliang
+三月 25, 2020 11:58:23 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading docker-workflow
+三月 25, 2020 11:58:44 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: docker-workflow
+三月 25, 2020 11:58:44 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of pipeline-model-declarative-agent on behalf of niumingliang
+三月 25, 2020 11:58:46 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading pipeline-model-declarative-agent
+三月 25, 2020 11:58:46 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: pipeline-model-declarative-agent
+三月 25, 2020 11:58:46 上午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of pipeline-model-definition on behalf of niumingliang
+三月 25, 2020 11:58:47 上午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading pipeline-model-definition
+三月 25, 2020 12:00:59 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: pipeline-model-definition
+三月 25, 2020 12:00:59 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of lockable-resources on behalf of niumingliang
+三月 25, 2020 12:01:03 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading lockable-resources
+三月 25, 2020 12:01:06 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: lockable-resources
+三月 25, 2020 12:01:06 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of workflow-aggregator on behalf of niumingliang
+三月 25, 2020 12:01:08 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading workflow-aggregator
+三月 25, 2020 12:01:08 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: workflow-aggregator
+三月 25, 2020 12:01:08 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completing installing of plugin batch…
+三月 25, 2020 12:01:09 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+三月 25, 2020 12:01:09 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+三月 25, 2020 12:01:09 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+三月 25, 2020 12:01:09 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+三月 25, 2020 12:01:09 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+三月 25, 2020 12:01:09 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+三月 25, 2020 12:01:09 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+三月 25, 2020 12:01:09 下午 hudson.ClassicPluginStrategy updateDependency
+信息: Updated dependency of docker-commons
+三月 25, 2020 12:01:09 下午 hudson.ClassicPluginStrategy updateDependency
+信息: Updated dependency of email-ext
+三月 25, 2020 12:01:10 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completed installation of 17 plugins in 22 min
+三月 25, 2020 12:01:10 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of pipeline-github-lib on behalf of niumingliang
+三月 25, 2020 12:01:11 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading pipeline-github-lib
+三月 25, 2020 12:01:17 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: pipeline-github-lib
+三月 25, 2020 12:01:17 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completing installing of plugin batch…
+三月 25, 2020 12:01:17 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+三月 25, 2020 12:01:17 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+三月 25, 2020 12:01:17 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+三月 25, 2020 12:01:17 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+三月 25, 2020 12:01:17 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+三月 25, 2020 12:01:17 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+三月 25, 2020 12:01:17 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+三月 25, 2020 12:01:18 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completed installation of 1 plugins in 20 min
+三月 25, 2020 12:01:18 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of pipeline-stage-view on behalf of niumingliang
+三月 25, 2020 12:01:18 下午 hudson.model.UpdateCenter$InstallationJob _run
+信息: Skipping duplicate install of: Pipeline: Stage View@2.13
+三月 25, 2020 12:01:18 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: pipeline-stage-view
+三月 25, 2020 12:01:18 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completing installing of plugin batch…
+三月 25, 2020 12:01:18 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+三月 25, 2020 12:01:18 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+三月 25, 2020 12:01:18 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+三月 25, 2020 12:01:18 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+三月 25, 2020 12:01:18 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+三月 25, 2020 12:01:18 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+三月 25, 2020 12:01:18 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+三月 25, 2020 12:01:18 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completed installation of 0 plugins in 18 min
+三月 25, 2020 12:01:18 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of violation-comments-to-gitlab on behalf of niumingliang
+三月 25, 2020 12:01:22 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading violation-comments-to-gitlab
+三月 25, 2020 12:12:24 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: violation-comments-to-gitlab
+三月 25, 2020 12:12:24 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of gitbucket on behalf of niumingliang
+三月 25, 2020 12:12:29 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading gitbucket
+三月 25, 2020 12:12:49 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: gitbucket
+三月 25, 2020 12:12:49 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of icon-shim on behalf of niumingliang
+三月 25, 2020 12:12:51 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading icon-shim
+三月 25, 2020 12:12:51 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: icon-shim
+三月 25, 2020 12:12:51 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of github-pullrequest on behalf of niumingliang
+三月 25, 2020 12:12:53 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading github-pullrequest
+三月 25, 2020 12:13:31 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: github-pullrequest
+三月 25, 2020 12:13:31 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of github-sqs-plugin on behalf of niumingliang
+三月 25, 2020 12:13:33 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading github-sqs-plugin
+三月 25, 2020 12:22:43 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install github-sqs-plugin
+java.io.IOException: Failed to download from http://updates.jenkins-ci.org/download/plugins/github-sqs-plugin/2.1/github-sqs-plugin.hpi (redirected to: http://ftp-nyc.osuosl.org/pub/jenkins/plugins/github-sqs-plugin/2.1/github-sqs-plugin.hpi)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1253)
+	at hudson.model.UpdateCenter$DownloadJob._run(UpdateCenter.java:1801)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2072)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to load http://updates.jenkins-ci.org/download/plugins/github-sqs-plugin/2.1/github-sqs-plugin.hpi to C:\Users\Windows\.jenkins\plugins\github-sqs-plugin.jpi.tmp
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1219)
+	... 7 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.MeteredStream.read(MeteredStream.java:134)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3444)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3437)
+	at org.apache.commons.io.input.ProxyInputStream.read(ProxyInputStream.java:78)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1214)
+	... 7 more
+
+三月 25, 2020 12:22:43 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of gitlab-plugin on behalf of niumingliang
+三月 25, 2020 12:22:45 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading gitlab-plugin
+三月 25, 2020 12:32:31 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: gitlab-plugin
+三月 25, 2020 12:32:31 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of blueocean-commons on behalf of niumingliang
+三月 25, 2020 12:32:33 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading blueocean-commons
+三月 25, 2020 12:32:38 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: blueocean-commons
+三月 25, 2020 12:32:38 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of blueocean-rest on behalf of niumingliang
+三月 25, 2020 12:32:41 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading blueocean-rest
+三月 25, 2020 12:32:45 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: blueocean-rest
+三月 25, 2020 12:32:45 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of pubsub-light on behalf of niumingliang
+三月 25, 2020 12:32:47 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading pubsub-light
+三月 25, 2020 12:32:48 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: pubsub-light
+三月 25, 2020 12:32:48 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of blueocean-pipeline-scm-api on behalf of niumingliang
+三月 25, 2020 12:32:52 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading blueocean-pipeline-scm-api
+三月 25, 2020 12:35:45 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: blueocean-pipeline-scm-api
+三月 25, 2020 12:35:45 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of htmlpublisher on behalf of niumingliang
+三月 25, 2020 12:35:49 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading htmlpublisher
+三月 25, 2020 12:35:52 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: htmlpublisher
+三月 25, 2020 12:35:52 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of jenkins-design-language on behalf of niumingliang
+三月 25, 2020 12:35:57 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading jenkins-design-language
+三月 25, 2020 12:43:59 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install jenkins-design-language
+java.io.IOException: Failed to download from http://updates.jenkins-ci.org/download/plugins/jenkins-design-language/1.22.0/jenkins-design-language.hpi (redirected to: http://ftp-nyc.osuosl.org/pub/jenkins/plugins/jenkins-design-language/1.22.0/jenkins-design-language.hpi)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1253)
+	at hudson.model.UpdateCenter$DownloadJob._run(UpdateCenter.java:1801)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2072)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to load http://updates.jenkins-ci.org/download/plugins/jenkins-design-language/1.22.0/jenkins-design-language.hpi to C:\Users\Windows\.jenkins\plugins\jenkins-design-language.jpi.tmp
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1219)
+	... 7 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.MeteredStream.read(MeteredStream.java:134)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3444)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3437)
+	at org.apache.commons.io.input.ProxyInputStream.read(ProxyInputStream.java:78)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1214)
+	... 7 more
+
+三月 25, 2020 12:43:59 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of blueocean-core-js on behalf of niumingliang
+三月 25, 2020 12:44:02 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading blueocean-core-js
+三月 25, 2020 12:45:42 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install blueocean-core-js
+java.io.IOException: Failed to dynamically deploy this plugin
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2088)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to install blueocean-core-js plugin
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:942)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2084)
+	... 5 more
+Caused by: java.io.IOException: Blue Ocean Core JS version 1.22.0 failed to load.
+ - jenkins-design-language version 1.22.0 is missing. To fix, install version 1.22.0 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:929)
+	... 6 more
+
+三月 25, 2020 12:45:42 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of variant on behalf of niumingliang
+三月 25, 2020 12:45:43 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading variant
+三月 25, 2020 12:45:49 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: variant
+三月 25, 2020 12:45:49 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of blueocean-web on behalf of niumingliang
+三月 25, 2020 12:45:51 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading blueocean-web
+三月 25, 2020 12:48:25 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install blueocean-web
+java.io.IOException: Failed to download from http://updates.jenkins-ci.org/download/plugins/blueocean-web/1.22.0/blueocean-web.hpi (redirected to: http://ftp-nyc.osuosl.org/pub/jenkins/plugins/blueocean-web/1.22.0/blueocean-web.hpi)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1253)
+	at hudson.model.UpdateCenter$DownloadJob._run(UpdateCenter.java:1801)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2072)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to load http://updates.jenkins-ci.org/download/plugins/blueocean-web/1.22.0/blueocean-web.hpi to C:\Users\Windows\.jenkins\plugins\blueocean-web.jpi.tmp
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1219)
+	... 7 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.MeteredStream.read(MeteredStream.java:134)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3444)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3437)
+	at org.apache.commons.io.input.ProxyInputStream.read(ProxyInputStream.java:78)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1214)
+	... 7 more
+
+三月 25, 2020 12:48:25 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of blueocean-jwt on behalf of niumingliang
+三月 25, 2020 12:48:28 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading blueocean-jwt
+三月 25, 2020 12:51:41 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install blueocean-jwt
+java.io.IOException: Failed to download from http://updates.jenkins-ci.org/download/plugins/blueocean-jwt/1.22.0/blueocean-jwt.hpi (redirected to: http://ftp-nyc.osuosl.org/pub/jenkins/plugins/blueocean-jwt/1.22.0/blueocean-jwt.hpi)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1253)
+	at hudson.model.UpdateCenter$DownloadJob._run(UpdateCenter.java:1801)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2072)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to load http://updates.jenkins-ci.org/download/plugins/blueocean-jwt/1.22.0/blueocean-jwt.hpi to C:\Users\Windows\.jenkins\plugins\blueocean-jwt.jpi.tmp
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1219)
+	... 7 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.MeteredStream.read(MeteredStream.java:134)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3444)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3437)
+	at org.apache.commons.io.input.ProxyInputStream.read(ProxyInputStream.java:78)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1214)
+	... 7 more
+
+三月 25, 2020 12:51:41 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of favorite on behalf of niumingliang
+三月 25, 2020 12:51:44 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading favorite
+三月 25, 2020 12:52:50 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install favorite
+java.io.IOException: Failed to download from http://updates.jenkins-ci.org/download/plugins/favorite/2.3.2/favorite.hpi (redirected to: http://ftp-nyc.osuosl.org/pub/jenkins/plugins/favorite/2.3.2/favorite.hpi)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1253)
+	at hudson.model.UpdateCenter$DownloadJob._run(UpdateCenter.java:1801)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2072)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to load http://updates.jenkins-ci.org/download/plugins/favorite/2.3.2/favorite.hpi to C:\Users\Windows\.jenkins\plugins\favorite.jpi.tmp
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1219)
+	... 7 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.MeteredStream.read(MeteredStream.java:134)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3444)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3437)
+	at org.apache.commons.io.input.ProxyInputStream.read(ProxyInputStream.java:78)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1214)
+	... 7 more
+
+三月 25, 2020 12:52:50 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of blueocean-rest-impl on behalf of niumingliang
+三月 25, 2020 12:53:17 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading blueocean-rest-impl
+三月 25, 2020 12:54:17 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install blueocean-rest-impl
+java.io.IOException: Failed to download from http://updates.jenkins-ci.org/download/plugins/blueocean-rest-impl/1.22.0/blueocean-rest-impl.hpi (redirected to: http://ftp-nyc.osuosl.org/pub/jenkins/plugins/blueocean-rest-impl/1.22.0/blueocean-rest-impl.hpi)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1253)
+	at hudson.model.UpdateCenter$DownloadJob._run(UpdateCenter.java:1801)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2072)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to load http://updates.jenkins-ci.org/download/plugins/blueocean-rest-impl/1.22.0/blueocean-rest-impl.hpi to C:\Users\Windows\.jenkins\plugins\blueocean-rest-impl.jpi.tmp
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1219)
+	... 7 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.MeteredStream.read(MeteredStream.java:134)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3444)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3437)
+	at org.apache.commons.io.input.ProxyInputStream.read(ProxyInputStream.java:78)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1214)
+	... 7 more
+
+三月 25, 2020 12:54:17 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of blueocean-pipeline-api-impl on behalf of niumingliang
+三月 25, 2020 12:54:19 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading blueocean-pipeline-api-impl
+三月 25, 2020 12:54:53 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install blueocean-pipeline-api-impl
+java.io.IOException: Failed to dynamically deploy this plugin
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2088)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to install blueocean-pipeline-api-impl plugin
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:942)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2084)
+	... 5 more
+Caused by: java.io.IOException: Pipeline implementation for Blue Ocean version 1.22.0 failed to load.
+ - blueocean-rest-impl version 1.22.0 is missing. To fix, install version 1.22.0 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:929)
+	... 6 more
+
+三月 25, 2020 12:54:53 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of blueocean-git-pipeline on behalf of niumingliang
+三月 25, 2020 12:54:57 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading blueocean-git-pipeline
+三月 25, 2020 12:56:45 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install blueocean-git-pipeline
+java.io.IOException: Failed to dynamically deploy this plugin
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2088)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to install blueocean-git-pipeline plugin
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:942)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2084)
+	... 5 more
+Caused by: java.io.IOException: Git Pipeline for Blue Ocean version 1.22.0 failed to load.
+ - Pipeline implementation for Blue Ocean version 1.22.0 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:929)
+	... 6 more
+
+三月 25, 2020 12:56:45 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of blueocean-github-pipeline on behalf of niumingliang
+三月 25, 2020 12:56:49 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading blueocean-github-pipeline
+三月 25, 2020 12:57:02 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install blueocean-github-pipeline
+java.io.IOException: Failed to dynamically deploy this plugin
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2088)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to install blueocean-github-pipeline plugin
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:942)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2084)
+	... 5 more
+Caused by: java.io.IOException: GitHub Pipeline for Blue Ocean version 1.22.0 failed to load.
+ - Pipeline implementation for Blue Ocean version 1.22.0 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:929)
+	... 6 more
+
+三月 25, 2020 12:57:02 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of git-automerger on behalf of niumingliang
+三月 25, 2020 12:57:03 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading git-automerger
+三月 25, 2020 12:57:27 下午 hudson.ClassicPluginStrategy createClassJarFromWebInfClasses
+警告: Created C:\Users\Windows\.jenkins\plugins\git-automerger\WEB-INF\lib\classes.jar; update plugin to a version created with a newer harness
+三月 25, 2020 12:57:27 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: git-automerger
+三月 25, 2020 12:57:27 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of plugin-util-api on behalf of niumingliang
+三月 25, 2020 12:57:30 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading plugin-util-api
+三月 25, 2020 12:57:31 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: plugin-util-api
+三月 25, 2020 12:57:31 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of font-awesome-api on behalf of niumingliang
+三月 25, 2020 12:57:34 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading font-awesome-api
+三月 25, 2020 12:59:02 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: font-awesome-api
+三月 25, 2020 12:59:02 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of popper-api on behalf of niumingliang
+三月 25, 2020 12:59:04 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading popper-api
+三月 25, 2020 1:00:56 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: popper-api
+三月 25, 2020 1:00:56 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of jquery3-api on behalf of niumingliang
+三月 25, 2020 1:00:57 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading jquery3-api
+三月 25, 2020 1:01:44 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: jquery3-api
+三月 25, 2020 1:01:44 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of bootstrap4-api on behalf of niumingliang
+三月 25, 2020 1:01:48 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading bootstrap4-api
+三月 25, 2020 1:04:10 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: bootstrap4-api
+三月 25, 2020 1:04:10 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of echarts-api on behalf of niumingliang
+三月 25, 2020 1:04:14 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading echarts-api
+三月 25, 2020 1:07:46 下午 hudson.init.impl.InstallUncaughtExceptionHandler lambda$init$0
+警告: null
+javax.servlet.ServletException: org.apache.commons.jelly.JellyTagException: jar:file:/E:/apache-tomcat-7.0.99/webapps/jenkins/WEB-INF/lib/jenkins-core-2.210.jar!/hudson/PluginManager/table.jelly:148:69: <st:out> java.io.IOException
+	at org.kohsuke.stapler.Facet$1.dispatch(Facet.java:247)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:747)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:878)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:169)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:747)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:878)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:676)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at jenkins.security.ResourceDomainFilter.doFilter(ResourceDomainFilter.java:76)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:151)
+	at jenkins.telemetry.impl.UserLanguages$AcceptLanguageFilter.doFilter(UserLanguages.java:128)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:151)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:105)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:51)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.providers.anonymous.AnonymousProcessingFilter.doFilter(AnonymousProcessingFilter.java:125)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.rememberme.RememberMeProcessingFilter.doFilter(RememberMeProcessingFilter.java:142)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.AbstractProcessingFilter.doFilter(AbstractProcessingFilter.java:271)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:93)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.context.HttpSessionContextIntegrationFilter.doFilter(HttpSessionContextIntegrationFilter.java:249)
+	at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:67)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1195)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2532)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.jelly.JellyTagException: jar:file:/E:/apache-tomcat-7.0.99/webapps/jenkins/WEB-INF/lib/jenkins-core-2.210.jar!/hudson/PluginManager/table.jelly:148:69: <st:out> java.io.IOException
+	at org.apache.commons.jelly.impl.TagScript.handleException(TagScript.java:726)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:279)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ForEachTag.doTag(ForEachTag.java:150)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.WhenTag.doTag(WhenTag.java:46)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:95)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:63)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:53)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:56)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:43)
+	at org.kohsuke.stapler.Facet$1.dispatch(Facet.java:238)
+	... 70 more
+Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:410)
+	at org.apache.tomcat.util.buf.ByteChunk.flushBuffer(ByteChunk.java:451)
+	at org.apache.tomcat.util.buf.ByteChunk.append(ByteChunk.java:352)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:435)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:423)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:91)
+	at com.jcraft.jzlib.DeflaterOutputStream.deflate(DeflaterOutputStream.java:144)
+	at com.jcraft.jzlib.DeflaterOutputStream.write(DeflaterOutputStream.java:102)
+	at org.kohsuke.stapler.compression.FilterServletOutputStream.write(FilterServletOutputStream.java:41)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker$1.write(DefaultScriptInvoker.java:133)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:254)
+	at org.dom4j.io.XMLWriter.flush(XMLWriter.java:275)
+	at org.apache.commons.jelly.XMLOutput.flush(XMLOutput.java:127)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	... 130 more
+Caused by: java.io.IOException
+	at org.apache.coyote.http11.InternalAprOutputBuffer.flushBuffer(InternalAprOutputBuffer.java:205)
+	at org.apache.coyote.http11.InternalAprOutputBuffer.access$100(InternalAprOutputBuffer.java:37)
+	at org.apache.coyote.http11.InternalAprOutputBuffer$SocketOutputBuffer.doWrite(InternalAprOutputBuffer.java:234)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:118)
+	at org.apache.coyote.http11.AbstractOutputBuffer.doWrite(AbstractOutputBuffer.java:192)
+	at org.apache.coyote.Response.doWrite(Response.java:578)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:405)
+	... 148 more
+
+三月 25, 2020 1:11:14 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install echarts-api
+java.io.IOException: Failed to download from http://updates.jenkins-ci.org/download/plugins/echarts-api/4.6.0-8/echarts-api.hpi (redirected to: http://ftp-chi.osuosl.org/pub/jenkins/plugins/echarts-api/4.6.0-8/echarts-api.hpi)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1253)
+	at hudson.model.UpdateCenter$DownloadJob._run(UpdateCenter.java:1801)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2072)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to load http://updates.jenkins-ci.org/download/plugins/echarts-api/4.6.0-8/echarts-api.hpi to C:\Users\Windows\.jenkins\plugins\echarts-api.jpi.tmp
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1219)
+	... 7 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.MeteredStream.read(MeteredStream.java:134)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3444)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3437)
+	at org.apache.commons.io.input.ProxyInputStream.read(ProxyInputStream.java:78)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1214)
+	... 7 more
+
+三月 25, 2020 1:11:14 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of data-tables-api on behalf of niumingliang
+三月 25, 2020 1:11:21 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading data-tables-api
+三月 25, 2020 1:12:52 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install data-tables-api
+java.io.IOException: Failed to download from http://updates.jenkins-ci.org/download/plugins/data-tables-api/1.10.20-14/data-tables-api.hpi (redirected to: http://ftp-nyc.osuosl.org/pub/jenkins/plugins/data-tables-api/1.10.20-14/data-tables-api.hpi)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1253)
+	at hudson.model.UpdateCenter$DownloadJob._run(UpdateCenter.java:1801)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2072)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to load http://updates.jenkins-ci.org/download/plugins/data-tables-api/1.10.20-14/data-tables-api.hpi to C:\Users\Windows\.jenkins\plugins\data-tables-api.jpi.tmp
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1219)
+	... 7 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.MeteredStream.read(MeteredStream.java:134)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3444)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3437)
+	at org.apache.commons.io.input.ProxyInputStream.read(ProxyInputStream.java:78)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1214)
+	... 7 more
+
+三月 25, 2020 1:12:52 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of forensics-api on behalf of niumingliang
+三月 25, 2020 1:12:54 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading forensics-api
+三月 25, 2020 1:13:35 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install forensics-api
+java.io.IOException: Failed to dynamically deploy this plugin
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2088)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to install forensics-api plugin
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:942)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2084)
+	... 5 more
+Caused by: java.io.IOException: Forensics API Plugin version 0.7.0 failed to load.
+ - echarts-api version 4.6.0-7 is missing. To fix, install version 4.6.0-7 or later.
+ - data-tables-api version 1.10.20-13 is missing. To fix, install version 1.10.20-13 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:929)
+	... 6 more
+
+三月 25, 2020 1:13:35 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of git-forensics on behalf of niumingliang
+三月 25, 2020 1:13:39 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading git-forensics
+三月 25, 2020 1:36:35 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install git-forensics
+java.io.IOException: Failed to download from http://updates.jenkins-ci.org/download/plugins/git-forensics/0.7.0/git-forensics.hpi (redirected to: http://ftp-chi.osuosl.org/pub/jenkins/plugins/git-forensics/0.7.0/git-forensics.hpi)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1253)
+	at hudson.model.UpdateCenter$DownloadJob._run(UpdateCenter.java:1801)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2072)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to load http://updates.jenkins-ci.org/download/plugins/git-forensics/0.7.0/git-forensics.hpi to C:\Users\Windows\.jenkins\plugins\git-forensics.jpi.tmp
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1219)
+	... 7 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.MeteredStream.read(MeteredStream.java:134)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3444)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3437)
+	at org.apache.commons.io.input.ProxyInputStream.read(ProxyInputStream.java:78)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1214)
+	... 7 more
+
+三月 25, 2020 1:36:35 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of ruby-runtime on behalf of niumingliang
+三月 25, 2020 1:36:37 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading ruby-runtime
+三月 25, 2020 1:36:56 下午 hudson.PluginManager install
+信息: Starting installation of a batch of 1 plugins plus their dependencies
+三月 25, 2020 1:44:30 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install ruby-runtime
+java.io.IOException: Failed to download from http://updates.jenkins-ci.org/download/plugins/ruby-runtime/0.12/ruby-runtime.hpi (redirected to: http://ftp-nyc.osuosl.org/pub/jenkins/plugins/ruby-runtime/0.12/ruby-runtime.hpi)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1253)
+	at hudson.model.UpdateCenter$DownloadJob._run(UpdateCenter.java:1801)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2072)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to load http://updates.jenkins-ci.org/download/plugins/ruby-runtime/0.12/ruby-runtime.hpi to C:\Users\Windows\.jenkins\plugins\ruby-runtime.jpi.tmp
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1219)
+	... 7 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.MeteredStream.read(MeteredStream.java:134)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3444)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3437)
+	at org.apache.commons.io.input.ProxyInputStream.read(ProxyInputStream.java:78)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1214)
+	... 7 more
+
+三月 25, 2020 1:44:30 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of pry on behalf of niumingliang
+三月 25, 2020 1:44:34 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading pry
+三月 25, 2020 1:47:33 下午 hudson.ClassicPluginStrategy createClassJarFromWebInfClasses
+警告: Created C:\Users\Windows\.jenkins\plugins\pry\WEB-INF\lib\classes.jar; update plugin to a version created with a newer harness
+三月 25, 2020 1:47:33 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install pry
+java.io.IOException: Failed to dynamically deploy this plugin
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2088)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to install pry plugin
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:942)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2084)
+	... 5 more
+Caused by: java.io.IOException: pry version 1.1 failed to load.
+ - ruby-runtime version 0.10 is missing. To fix, install version 0.10 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:929)
+	... 6 more
+
+三月 25, 2020 1:47:33 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completing installing of plugin batch…
+三月 25, 2020 1:47:34 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+三月 25, 2020 1:47:34 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+三月 25, 2020 1:47:34 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+三月 25, 2020 1:47:34 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+三月 25, 2020 1:47:34 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+三月 25, 2020 1:47:34 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+三月 25, 2020 1:47:34 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+三月 25, 2020 1:47:34 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completed installation of 17 plugins in 2 hr 1 min
+三月 25, 2020 1:47:34 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of mapdb-api on behalf of niumingliang
+三月 25, 2020 1:47:38 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading mapdb-api
+三月 25, 2020 1:49:26 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: mapdb-api
+三月 25, 2020 1:49:26 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of subversion on behalf of niumingliang
+三月 25, 2020 1:49:29 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading subversion
+三月 25, 2020 2:03:39 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install subversion
+java.io.IOException: Failed to download from http://updates.jenkins-ci.org/download/plugins/subversion/2.13.1/subversion.hpi (redirected to: http://mirror.serverion.com/jenkins/plugins/subversion/2.13.1/subversion.hpi)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1253)
+	at hudson.model.UpdateCenter$DownloadJob._run(UpdateCenter.java:1801)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2072)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to load http://updates.jenkins-ci.org/download/plugins/subversion/2.13.1/subversion.hpi to C:\Users\Windows\.jenkins\plugins\subversion.jpi.tmp
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1219)
+	... 7 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.MeteredStream.read(MeteredStream.java:134)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3444)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3437)
+	at org.apache.commons.io.input.ProxyInputStream.read(ProxyInputStream.java:78)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1214)
+	... 7 more
+
+三月 25, 2020 2:03:39 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completing installing of plugin batch…
+三月 25, 2020 2:03:39 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+三月 25, 2020 2:03:39 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+三月 25, 2020 2:03:39 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+三月 25, 2020 2:03:39 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+三月 25, 2020 2:03:39 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+三月 25, 2020 2:03:39 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+三月 25, 2020 2:03:39 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+三月 25, 2020 2:03:40 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completed installation of 1 plugins in 2 hr 16 min
+三月 25, 2020 2:03:40 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of ssh on behalf of niumingliang
+三月 25, 2020 2:03:43 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading ssh
+三月 25, 2020 2:03:52 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: ssh
+三月 25, 2020 2:03:52 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completing installing of plugin batch…
+三月 25, 2020 2:03:53 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+三月 25, 2020 2:03:53 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+三月 25, 2020 2:03:53 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+三月 25, 2020 2:03:53 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+三月 25, 2020 2:03:53 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+三月 25, 2020 2:03:53 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+三月 25, 2020 2:03:53 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+三月 25, 2020 2:03:53 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completed installation of 1 plugins in 2 hr 16 min
+三月 25, 2020 2:03:53 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of ldapemail on behalf of niumingliang
+三月 25, 2020 2:03:56 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading ldapemail
+三月 25, 2020 2:04:05 下午 hudson.ClassicPluginStrategy createClassJarFromWebInfClasses
+警告: Created C:\Users\Windows\.jenkins\plugins\ldapemail\WEB-INF\lib\classes.jar; update plugin to a version created with a newer harness
+三月 25, 2020 2:04:05 下午 com.mtvi.plateng.hudson.ldap.PluginImpl loadConfiguration
+信息: Could not find configuration file, creating empty object
+三月 25, 2020 2:04:05 下午 com.mtvi.plateng.hudson.ldap.LdapMailAddressResolver <init>
+警告: Provided configuration isn't valid. Check for missing elements.
+三月 25, 2020 2:04:05 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: ldapemail
+三月 25, 2020 2:04:05 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completing installing of plugin batch…
+三月 25, 2020 2:04:06 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+三月 25, 2020 2:04:06 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+三月 25, 2020 2:04:06 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+三月 25, 2020 2:04:06 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+三月 25, 2020 2:04:06 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+三月 25, 2020 2:04:06 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+三月 25, 2020 2:04:06 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+三月 25, 2020 2:04:06 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completed installation of 1 plugins in 2 hr 15 min
+三月 25, 2020 2:04:06 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of emailext-template on behalf of niumingliang
+三月 25, 2020 2:04:10 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading emailext-template
+三月 25, 2020 2:04:10 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: emailext-template
+三月 25, 2020 2:04:10 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of maven-plugin on behalf of niumingliang
+三月 25, 2020 2:04:14 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading maven-plugin
+三月 25, 2020 2:40:34 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install maven-plugin
+java.io.IOException: Failed to download from http://updates.jenkins-ci.org/download/plugins/maven-plugin/3.5/maven-plugin.hpi (redirected to: http://ftp-nyc.osuosl.org/pub/jenkins/plugins/maven-plugin/3.5/maven-plugin.hpi)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1253)
+	at hudson.model.UpdateCenter$DownloadJob._run(UpdateCenter.java:1801)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2072)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to load http://updates.jenkins-ci.org/download/plugins/maven-plugin/3.5/maven-plugin.hpi to C:\Users\Windows\.jenkins\plugins\maven-plugin.jpi.tmp
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1219)
+	... 7 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.MeteredStream.read(MeteredStream.java:134)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3444)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3437)
+	at org.apache.commons.io.input.ProxyInputStream.read(ProxyInputStream.java:78)
+	at hudson.model.UpdateCenter$UpdateCenterConfiguration.download(UpdateCenter.java:1214)
+	... 7 more
+
+三月 25, 2020 2:40:34 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of email-ext-recipients-column on behalf of niumingliang
+三月 25, 2020 2:40:38 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading email-ext-recipients-column
+三月 25, 2020 2:41:51 下午 hudson.ClassicPluginStrategy createClassJarFromWebInfClasses
+警告: Created C:\Users\Windows\.jenkins\plugins\email-ext-recipients-column\WEB-INF\lib\classes.jar; update plugin to a version created with a newer harness
+三月 25, 2020 2:41:51 下午 hudson.model.UpdateCenter$DownloadJob run
+严重: Failed to install email-ext-recipients-column
+java.io.IOException: Failed to dynamically deploy this plugin
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2088)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1775)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to install email-ext-recipients-column plugin
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:942)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:2084)
+	... 5 more
+Caused by: java.io.IOException: Email Ext Recipients Column Plugin version 1.0 failed to load.
+ - maven-plugin version 1.494 is missing. To fix, install version 1.494 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:929)
+	... 6 more
+
+三月 25, 2020 2:41:51 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completing installing of plugin batch…
+三月 25, 2020 2:41:51 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+三月 25, 2020 2:41:51 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+三月 25, 2020 2:41:51 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+三月 25, 2020 2:41:51 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+三月 25, 2020 2:41:51 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+三月 25, 2020 2:41:51 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+三月 25, 2020 2:41:51 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+三月 25, 2020 2:41:52 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completed installation of 1 plugins in 2 hr 52 min
+三月 25, 2020 2:41:52 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of gitlab-plugin on behalf of niumingliang
+三月 25, 2020 2:41:52 下午 hudson.model.UpdateCenter$InstallationJob _run
+信息: Skipping duplicate install of: GitLab@1.5.13
+三月 25, 2020 2:41:52 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: gitlab-plugin
+三月 25, 2020 2:41:52 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completing installing of plugin batch…
+三月 25, 2020 2:41:52 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+三月 25, 2020 2:41:52 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+三月 25, 2020 2:41:52 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+三月 25, 2020 2:41:52 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+三月 25, 2020 2:41:52 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+三月 25, 2020 2:41:52 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+三月 25, 2020 2:41:52 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+三月 25, 2020 2:41:53 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completed installation of 0 plugins in 2 hr 50 min
+三月 25, 2020 2:41:53 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of perfpublisher on behalf of niumingliang
+三月 25, 2020 2:41:55 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading perfpublisher
+三月 25, 2020 2:44:09 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: perfpublisher
+三月 25, 2020 2:44:09 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completing installing of plugin batch…
+三月 25, 2020 2:44:09 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+三月 25, 2020 2:44:09 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+三月 25, 2020 2:44:09 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+三月 25, 2020 2:44:09 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+三月 25, 2020 2:44:09 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+三月 25, 2020 2:44:09 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+三月 25, 2020 2:44:09 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+三月 25, 2020 2:44:10 下午 hudson.model.UpdateCenter$CompleteBatchJob run
+信息: Completed installation of 1 plugins in 1 hr 7 min
+三月 25, 2020 4:27:10 下午 hudson.init.impl.InstallUncaughtExceptionHandler lambda$init$0
+警告: null
+javax.servlet.ServletException: org.apache.commons.jelly.JellyTagException: jar:file:/E:/apache-tomcat-7.0.99/webapps/jenkins/WEB-INF/lib/jenkins-core-2.210.jar!/hudson/PluginManager/table.jelly:102:76: <j:out> java.io.IOException
+	at org.kohsuke.stapler.Facet$1.dispatch(Facet.java:247)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:747)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:878)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:169)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:747)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:878)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:676)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at jenkins.security.ResourceDomainFilter.doFilter(ResourceDomainFilter.java:76)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:151)
+	at jenkins.telemetry.impl.UserLanguages$AcceptLanguageFilter.doFilter(UserLanguages.java:128)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:151)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:105)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:51)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.providers.anonymous.AnonymousProcessingFilter.doFilter(AnonymousProcessingFilter.java:125)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.rememberme.RememberMeProcessingFilter.doFilter(RememberMeProcessingFilter.java:142)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.AbstractProcessingFilter.doFilter(AbstractProcessingFilter.java:271)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:93)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.context.HttpSessionContextIntegrationFilter.doFilter(HttpSessionContextIntegrationFilter.java:249)
+	at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:67)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1195)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2532)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.jelly.JellyTagException: jar:file:/E:/apache-tomcat-7.0.99/webapps/jenkins/WEB-INF/lib/jenkins-core-2.210.jar!/hudson/PluginManager/table.jelly:102:76: <j:out> java.io.IOException
+	at org.apache.commons.jelly.impl.TagScript.handleException(TagScript.java:726)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:279)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ForEachTag.doTag(ForEachTag.java:150)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.WhenTag.doTag(WhenTag.java:46)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:95)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:63)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:53)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:56)
+	at org.kohsuke.stapler.jelly.ScriptInvoker.execute(ScriptInvoker.java:43)
+	at org.kohsuke.stapler.Facet$1.dispatch(Facet.java:238)
+	... 70 more
+Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:410)
+	at org.apache.tomcat.util.buf.ByteChunk.flushBuffer(ByteChunk.java:451)
+	at org.apache.tomcat.util.buf.ByteChunk.append(ByteChunk.java:352)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:435)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:423)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:91)
+	at com.jcraft.jzlib.DeflaterOutputStream.deflate(DeflaterOutputStream.java:144)
+	at com.jcraft.jzlib.DeflaterOutputStream.write(DeflaterOutputStream.java:102)
+	at org.kohsuke.stapler.compression.FilterServletOutputStream.write(FilterServletOutputStream.java:41)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker$1.write(DefaultScriptInvoker.java:133)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:254)
+	at org.dom4j.io.XMLWriter.flush(XMLWriter.java:275)
+	at org.apache.commons.jelly.XMLOutput.flush(XMLOutput.java:127)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	... 133 more
+Caused by: java.io.IOException
+	at org.apache.coyote.http11.InternalAprOutputBuffer.flushBuffer(InternalAprOutputBuffer.java:205)
+	at org.apache.coyote.http11.InternalAprOutputBuffer.access$100(InternalAprOutputBuffer.java:37)
+	at org.apache.coyote.http11.InternalAprOutputBuffer$SocketOutputBuffer.doWrite(InternalAprOutputBuffer.java:234)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:118)
+	at org.apache.coyote.http11.AbstractOutputBuffer.doWrite(AbstractOutputBuffer.java:192)
+	at org.apache.coyote.Response.doWrite(Response.java:578)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:405)
+	... 151 more
+
+三月 25, 2020 4:56:46 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of performance on behalf of niumingliang
+三月 25, 2020 4:56:46 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading performance
+三月 25, 2020 4:56:46 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+三月 25, 2020 4:56:46 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+三月 25, 2020 4:56:46 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+三月 25, 2020 4:56:46 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+三月 25, 2020 4:56:46 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+三月 25, 2020 4:56:46 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+三月 25, 2020 4:56:46 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+三月 25, 2020 4:56:47 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: performance
+三月 25, 2020 5:46:20 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started Workspace clean-up
+三月 25, 2020 5:46:20 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished Workspace clean-up. 15 ms

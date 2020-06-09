@@ -1,0 +1,1558 @@
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server.服务器版本:     Apache Tomcat/7.0.99
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器构建:            Dec 11 2019 13:15:59 UTC
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器版本号(：7.0.99.0
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS.版本:               10.0
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 架构:                  amd64
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java 环境变量:         C:\Program Files\Java\jdk1.8.0_202\jre
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM 版本:              1.8.0_202-b08
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM.供应商:            Oracle Corporation
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\apache-tomcat-7.0.99
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\apache-tomcat-7.0.99
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=E:\apache-tomcat-7.0.99\conf\logging.properties
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=E:\apache-tomcat-7.0.99
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=E:\apache-tomcat-7.0.99
+四月 02, 2020 4:13:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=E:\apache-tomcat-7.0.99\temp
+四月 02, 2020 4:13:09 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+四月 02, 2020 4:13:09 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+四月 02, 2020 4:13:09 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+四月 02, 2020 4:13:09 下午 org.apache.coyote.AbstractProtocol init
+信息: 初始化协议处理器 ["http-apr-8080"]
+四月 02, 2020 4:13:10 下午 org.apache.coyote.AbstractProtocol init
+信息: 初始化协议处理器 ["ajp-apr-8009"]
+四月 02, 2020 4:13:10 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1237 ms
+四月 02, 2020 4:13:10 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Catalina]
+四月 02, 2020 4:13:10 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.99
+四月 02, 2020 4:13:10 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive [E:\apache-tomcat-7.0.99\webapps\jenkins.war]
+四月 02, 2020 4:13:13 下午 org.apache.catalina.deploy.WebXml setVersion
+警告: Unknown version string [3.1]. Default version will be used.
+四月 02, 2020 4:13:19 下午 org.apache.catalina.startup.ContextConfig validateSecurityRoles
+警告: 在标签<auth-constraint>的子标签<security-role>中没有定义角色名[**]
+四月 02, 2020 4:13:19 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+四月 02, 2020 4:13:19 下午 hudson.WebAppMain contextInitialized
+信息: Jenkins home directory: C:\Users\Windows\.jenkins found at: $user.home/.jenkins
+四月 02, 2020 4:13:19 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive [E:\apache-tomcat-7.0.99\webapps\jenkins.war] has finished in [9,842] ms
+四月 02, 2020 4:13:19 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: 把web 应用程序部署到目录 [E:\apache-tomcat-7.0.99\webapps\docs]
+四月 02, 2020 4:13:20 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory [E:\apache-tomcat-7.0.99\webapps\docs] has finished in [59] ms
+四月 02, 2020 4:13:20 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: 把web 应用程序部署到目录 [E:\apache-tomcat-7.0.99\webapps\examples]
+四月 02, 2020 4:13:21 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+四月 02, 2020 4:13:21 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory [E:\apache-tomcat-7.0.99\webapps\examples] has finished in [1,065] ms
+四月 02, 2020 4:13:21 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: 把web 应用程序部署到目录 [E:\apache-tomcat-7.0.99\webapps\host-manager]
+四月 02, 2020 4:13:21 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory [E:\apache-tomcat-7.0.99\webapps\host-manager] has finished in [62] ms
+四月 02, 2020 4:13:21 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: 把web 应用程序部署到目录 [E:\apache-tomcat-7.0.99\webapps\manager]
+四月 02, 2020 4:13:21 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory [E:\apache-tomcat-7.0.99\webapps\manager] has finished in [26] ms
+四月 02, 2020 4:13:21 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: 把web 应用程序部署到目录 [E:\apache-tomcat-7.0.99\webapps\ROOT]
+四月 02, 2020 4:13:21 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory [E:\apache-tomcat-7.0.99\webapps\ROOT] has finished in [45] ms
+四月 02, 2020 4:13:21 下午 org.apache.coyote.AbstractProtocol start
+信息: 开始协议处理句柄["http-apr-8080"]
+四月 02, 2020 4:13:21 下午 org.apache.coyote.AbstractProtocol start
+信息: 开始协议处理句柄["ajp-apr-8009"]
+四月 02, 2020 4:13:21 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 11247 ms
+四月 02, 2020 4:13:23 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+四月 02, 2020 4:13:23 下午 jenkins.bouncycastle.api.SecurityProviderInitializer addSecurityProvider
+信息: Initializing Bouncy Castle security provider.
+四月 02, 2020 4:13:23 下午 jenkins.bouncycastle.api.SecurityProviderInitializer addSecurityProvider
+信息: Bouncy Castle security provider initialized.
+四月 02, 2020 4:13:23 下午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Blue Ocean Core JS v1.22.0 (blueocean-core-js)
+java.io.IOException: Blue Ocean Core JS version 1.22.0 failed to load.
+ - jenkins-design-language version 1.22.0 is missing. To fix, install version 1.22.0 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+四月 02, 2020 4:13:23 下午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Pipeline implementation for Blue Ocean v1.22.0 (blueocean-pipeline-api-impl)
+java.io.IOException: Pipeline implementation for Blue Ocean version 1.22.0 failed to load.
+ - blueocean-rest-impl version 1.22.0 is missing. To fix, install version 1.22.0 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+四月 02, 2020 4:13:23 下午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Git Pipeline for Blue Ocean v1.22.0 (blueocean-git-pipeline)
+java.io.IOException: Git Pipeline for Blue Ocean version 1.22.0 failed to load.
+ - Pipeline implementation for Blue Ocean version 1.22.0 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+四月 02, 2020 4:13:23 下午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin GitHub Pipeline for Blue Ocean v1.22.0 (blueocean-github-pipeline)
+java.io.IOException: GitHub Pipeline for Blue Ocean version 1.22.0 failed to load.
+ - Pipeline implementation for Blue Ocean version 1.22.0 failed to load. Fix this plugin first.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+四月 02, 2020 4:13:23 下午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin CCM Plug-in v3.2 (ccm)
+java.io.IOException: CCM Plug-in version 3.2 failed to load.
+ - analysis-core version 1.94 is missing. To fix, install version 1.94 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+四月 02, 2020 4:13:23 下午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Email Ext Recipients Column Plugin v1.0 (email-ext-recipients-column)
+java.io.IOException: Email Ext Recipients Column Plugin version 1.0 failed to load.
+ - maven-plugin version 1.494 is missing. To fix, install version 1.494 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+四月 02, 2020 4:13:23 下午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin Forensics API Plugin v0.7.0 (forensics-api)
+java.io.IOException: Forensics API Plugin version 0.7.0 failed to load.
+ - echarts-api version 4.6.0-7 is missing. To fix, install version 4.6.0-7 or later.
+ - data-tables-api version 1.10.20-13 is missing. To fix, install version 1.10.20-13 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+四月 02, 2020 4:13:24 下午 com.mtvi.plateng.hudson.ldap.PluginImpl loadConfiguration
+信息: Loaded configuration data: com.mtvi.plateng.hudson.ldap.Configuration@3aba722a[
+  baseDN=<null>
+  bindDN=<null>
+  bindPassword=xxxx
+  emailAttribute=<null>
+  initialContextFactoryName=<null>
+  performSearch=false
+  server=<null>
+]
+四月 02, 2020 4:13:24 下午 com.mtvi.plateng.hudson.ldap.LdapMailAddressResolver <init>
+警告: Provided configuration isn't valid. Check for missing elements.
+四月 02, 2020 4:13:24 下午 jenkins.InitReactorRunner$1 onTaskFailed
+严重: Failed Loading plugin pry v1.1 (pry)
+java.io.IOException: pry version 1.1 failed to load.
+ - ruby-runtime version 0.10 is missing. To fix, install version 0.10 or later.
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:933)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:546)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1142)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+四月 02, 2020 4:13:28 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+四月 02, 2020 4:13:28 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+四月 02, 2020 4:13:29 下午 hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+信息: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+四月 02, 2020 4:13:29 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+四月 02, 2020 4:13:30 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+四月 02, 2020 4:13:30 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started Download metadata
+四月 02, 2020 4:13:30 下午 hudson.util.Retrier start
+信息: Attempt #1 to do the action check updates server
+四月 02, 2020 4:13:31 下午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@7afe8b8c: display name [Root WebApplicationContext]; startup date [Thu Apr 02 16:13:31 CST 2020]; root of context hierarchy
+四月 02, 2020 4:13:31 下午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@7afe8b8c]: org.springframework.beans.factory.support.DefaultListableBeanFactory@54458db5
+四月 02, 2020 4:13:31 下午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@54458db5: defining beans [authenticationManager]; root of factory hierarchy
+四月 02, 2020 4:13:31 下午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@13ffb214: display name [Root WebApplicationContext]; startup date [Thu Apr 02 16:13:31 CST 2020]; root of context hierarchy
+四月 02, 2020 4:13:31 下午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@13ffb214]: org.springframework.beans.factory.support.DefaultListableBeanFactory@72ef0ce7
+四月 02, 2020 4:13:31 下午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@72ef0ce7: defining beans [filter,legacy]; root of factory hierarchy
+四月 02, 2020 4:13:31 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+四月 02, 2020 4:13:31 下午 hudson.WebAppMain$3 run
+信息: Jenkins is fully up and running
+四月 02, 2020 4:14:31 下午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+四月 02, 2020 4:14:32 下午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+四月 02, 2020 4:14:35 下午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.plugins.gradle.GradleInstaller
+四月 02, 2020 4:14:48 下午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tools.JDKInstaller
+四月 02, 2020 4:14:48 下午 hudson.util.Retrier start
+信息: Performed the action check updates server successfully at the attempt #1
+四月 02, 2020 4:14:48 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished Download metadata. 78,532 ms
+四月 02, 2020 4:21:42 下午 hudson.model.Run execute
+信息: dome #16 aborted
+java.lang.InterruptedException
+	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)
+	at hudson.Proc$LocalProc.join(Proc.java:325)
+	at hudson.Launcher$ProcStarter.join(Launcher.java:480)
+	at hudson.tasks.Ant.perform(Ant.java:234)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:741)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1853)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+
+四月 02, 2020 4:21:43 下午 hudson.model.Run execute
+严重: Failed to save build record
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:216)
+	at hudson.util.FileChannelWriter.write(FileChannelWriter.java:73)
+	at java.io.Writer.write(Writer.java:192)
+	at hudson.util.AtomicFileWriter.write(AtomicFileWriter.java:162)
+	at java.io.Writer.write(Writer.java:157)
+	at hudson.XmlFile.write(XmlFile.java:191)
+	at hudson.model.Run.save(Run.java:2023)
+	at hudson.model.Run.execute(Run.java:1910)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+
+四月 02, 2020 4:21:43 下午 hudson.model.RunMap retrieve
+警告: could not load C:\Users\Windows\.jenkins\jobs\dome\builds\11
+java.io.IOException: Unable to read C:\Users\Windows\.jenkins\jobs\dome\builds\11\build.xml
+	at hudson.XmlFile.unmarshal(XmlFile.java:183)
+	at hudson.XmlFile.unmarshal(XmlFile.java:163)
+	at hudson.model.Run.reload(Run.java:345)
+	at hudson.model.Run.<init>(Run.java:333)
+	at hudson.model.AbstractBuild.<init>(AbstractBuild.java:173)
+	at hudson.model.Build.<init>(Build.java:104)
+	at hudson.model.FreeStyleBuild.<init>(FreeStyleBuild.java:38)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at jenkins.model.lazy.LazyBuildMixIn.loadBuild(LazyBuildMixIn.java:166)
+	at jenkins.model.lazy.LazyBuildMixIn$1.create(LazyBuildMixIn.java:143)
+	at hudson.model.RunMap.retrieve(RunMap.java:224)
+	at hudson.model.RunMap.retrieve(RunMap.java:57)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.load(AbstractLazyLoadRunMap.java:501)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.load(AbstractLazyLoadRunMap.java:483)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.getByNumber(AbstractLazyLoadRunMap.java:381)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.search(AbstractLazyLoadRunMap.java:346)
+	at jenkins.model.lazy.LazyLoadRunMapEntrySet$1.next(LazyLoadRunMapEntrySet.java:74)
+	at jenkins.model.lazy.LazyLoadRunMapEntrySet$1.next(LazyLoadRunMapEntrySet.java:63)
+	at java.util.AbstractMap$2$1.next(AbstractMap.java:418)
+	at hudson.util.RunList.size(RunList.java:125)
+	at hudson.tasks.LogRotator.perform(LogRotator.java:157)
+	at hudson.model.Job.logRotate(Job.java:469)
+	at hudson.model.Run.execute(Run.java:1917)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+Caused by: com.thoughtworks.xstream.io.StreamException:  : null
+	at com.thoughtworks.xstream.io.xml.AbstractXppDriver.createReader(AbstractXppDriver.java:69)
+	at hudson.XmlFile.unmarshal(XmlFile.java:180)
+	... 28 more
+Caused by: java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:164)
+	at sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:65)
+	at sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:109)
+	at sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:103)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.FilterInputStream.read(FilterInputStream.java:83)
+	at java.io.PushbackInputStream.read(PushbackInputStream.java:139)
+	at com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.getHeader(XmlHeaderAwareReader.java:79)
+	at com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.<init>(XmlHeaderAwareReader.java:61)
+	at com.thoughtworks.xstream.io.xml.AbstractXppDriver.createReader(AbstractXppDriver.java:65)
+	... 29 more
+
+四月 02, 2020 4:21:43 下午 hudson.model.RunMap retrieve
+警告: could not load C:\Users\Windows\.jenkins\jobs\dome\builds\11
+java.io.IOException: Unable to read C:\Users\Windows\.jenkins\jobs\dome\builds\11\build.xml
+	at hudson.XmlFile.unmarshal(XmlFile.java:183)
+	at hudson.XmlFile.unmarshal(XmlFile.java:163)
+	at hudson.model.Run.reload(Run.java:345)
+	at hudson.model.Run.<init>(Run.java:333)
+	at hudson.model.AbstractBuild.<init>(AbstractBuild.java:173)
+	at hudson.model.Build.<init>(Build.java:104)
+	at hudson.model.FreeStyleBuild.<init>(FreeStyleBuild.java:38)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at jenkins.model.lazy.LazyBuildMixIn.loadBuild(LazyBuildMixIn.java:166)
+	at jenkins.model.lazy.LazyBuildMixIn$1.create(LazyBuildMixIn.java:143)
+	at hudson.model.RunMap.retrieve(RunMap.java:224)
+	at hudson.model.RunMap.retrieve(RunMap.java:57)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.load(AbstractLazyLoadRunMap.java:501)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.load(AbstractLazyLoadRunMap.java:483)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.getByNumber(AbstractLazyLoadRunMap.java:381)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.search(AbstractLazyLoadRunMap.java:346)
+	at jenkins.model.lazy.LazyLoadRunMapEntrySet$1.next(LazyLoadRunMapEntrySet.java:74)
+	at jenkins.model.lazy.LazyLoadRunMapEntrySet$1.next(LazyLoadRunMapEntrySet.java:63)
+	at java.util.AbstractMap$2$1.next(AbstractMap.java:418)
+	at hudson.util.Iterators.skip(Iterators.java:421)
+	at hudson.util.RunList.subList(RunList.java:153)
+	at hudson.tasks.LogRotator.perform(LogRotator.java:157)
+	at hudson.model.Job.logRotate(Job.java:469)
+	at hudson.model.Run.execute(Run.java:1917)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+Caused by: com.thoughtworks.xstream.io.StreamException:  : null
+	at com.thoughtworks.xstream.io.xml.AbstractXppDriver.createReader(AbstractXppDriver.java:69)
+	at hudson.XmlFile.unmarshal(XmlFile.java:180)
+	... 29 more
+Caused by: java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:164)
+	at sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:65)
+	at sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:109)
+	at sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:103)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.FilterInputStream.read(FilterInputStream.java:83)
+	at java.io.PushbackInputStream.read(PushbackInputStream.java:139)
+	at com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.getHeader(XmlHeaderAwareReader.java:79)
+	at com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.<init>(XmlHeaderAwareReader.java:61)
+	at com.thoughtworks.xstream.io.xml.AbstractXppDriver.createReader(AbstractXppDriver.java:65)
+	... 30 more
+
+四月 02, 2020 4:21:43 下午 hudson.model.RunMap retrieve
+警告: could not load C:\Users\Windows\.jenkins\jobs\dome\builds\11
+java.io.IOException: Unable to read C:\Users\Windows\.jenkins\jobs\dome\builds\11\build.xml
+	at hudson.XmlFile.unmarshal(XmlFile.java:183)
+	at hudson.XmlFile.unmarshal(XmlFile.java:163)
+	at hudson.model.Run.reload(Run.java:345)
+	at hudson.model.Run.<init>(Run.java:333)
+	at hudson.model.AbstractBuild.<init>(AbstractBuild.java:173)
+	at hudson.model.Build.<init>(Build.java:104)
+	at hudson.model.FreeStyleBuild.<init>(FreeStyleBuild.java:38)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at jenkins.model.lazy.LazyBuildMixIn.loadBuild(LazyBuildMixIn.java:166)
+	at jenkins.model.lazy.LazyBuildMixIn$1.create(LazyBuildMixIn.java:143)
+	at hudson.model.RunMap.retrieve(RunMap.java:224)
+	at hudson.model.RunMap.retrieve(RunMap.java:57)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.load(AbstractLazyLoadRunMap.java:501)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.load(AbstractLazyLoadRunMap.java:483)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.getByNumber(AbstractLazyLoadRunMap.java:381)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.search(AbstractLazyLoadRunMap.java:332)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.oldestBuild(AbstractLazyLoadRunMap.java:280)
+	at jenkins.model.lazy.LazyBuildMixIn.getFirstBuild(LazyBuildMixIn.java:235)
+	at hudson.model.AbstractProject.getFirstBuild(AbstractProject.java:934)
+	at hudson.model.AbstractProject.getFirstBuild(AbstractProject.java:138)
+	at hudson.tasks.LogRotator.perform(LogRotator.java:170)
+	at hudson.model.Job.logRotate(Job.java:469)
+	at hudson.model.Run.execute(Run.java:1917)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+Caused by: com.thoughtworks.xstream.io.StreamException:  : null
+	at com.thoughtworks.xstream.io.xml.AbstractXppDriver.createReader(AbstractXppDriver.java:69)
+	at hudson.XmlFile.unmarshal(XmlFile.java:180)
+	... 28 more
+Caused by: java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:164)
+	at sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:65)
+	at sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:109)
+	at sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:103)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.FilterInputStream.read(FilterInputStream.java:83)
+	at java.io.PushbackInputStream.read(PushbackInputStream.java:139)
+	at com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.getHeader(XmlHeaderAwareReader.java:79)
+	at com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.<init>(XmlHeaderAwareReader.java:61)
+	at com.thoughtworks.xstream.io.xml.AbstractXppDriver.createReader(AbstractXppDriver.java:65)
+	... 29 more
+
+四月 02, 2020 4:51:11 下午 javax.jmdns.impl.JmDNSImpl cleanCache
+警告: DESKTOP-7KCLEF3.local..Error while reaping records: [IPv6Address@1165950359 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: 5ce2d458-cfdd-42ec-9d96-1a821b447b35.local. ttl: '17/120' address: '0.0.0.0']
+java.lang.ClassCastException: java.net.Inet4Address cannot be cast to java.net.Inet6Address
+	at javax.jmdns.impl.DNSRecord$IPv6Address.getServiceInfo(DNSRecord.java:285)
+	at javax.jmdns.impl.DNSRecord.getServiceInfo(DNSRecord.java:1036)
+	at javax.jmdns.impl.JmDNSImpl.cleanCache(JmDNSImpl.java:1888)
+	at javax.jmdns.impl.tasks.RecordReaper.run(RecordReaper.java:56)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+四月 02, 2020 4:51:11 下午 javax.jmdns.impl.JmDNSImpl cleanCache
+警告: 
+	---- Local Host -----
+	local host info[DESKTOP-7KCLEF3-1.local., Realtek PCIe GbE Family Controller:192.168.30.189, DNS: DESKTOP-7KCLEF3.local. [DESKTOP-7KCLEF3/192.168.30.189] state: announced task: Renewer(DESKTOP-7KCLEF3.local.) state: announced]
+	---- Services -----
+		Service: jenkins._hudson._tcp.local.: [ServiceInfoImpl@1334220519 name: 'jenkins._hudson._tcp.local.' address: 'DESKTOP-7KCLEF3/192.168.30.189:8080 null:8080 ' status: 'DNS: DESKTOP-7KCLEF3.local. [DESKTOP-7KCLEF3/192.168.30.189] state: announced task: Renewer(DESKTOP-7KCLEF3.local.) state: announced', has data
+	version: 2.210
+	url: http://localhost:8080/jenkins/
+	server-id: e73c6bd162f3506a5d99c52cd4585311
+	path: /jenkins/]
+		Service: jenkins._jenkins._tcp.local.: [ServiceInfoImpl@176427379 name: 'jenkins._jenkins._tcp.local.' address: 'DESKTOP-7KCLEF3/192.168.30.189:8080 null:8080 ' status: 'DNS: DESKTOP-7KCLEF3.local. [DESKTOP-7KCLEF3/192.168.30.189] state: announced task: Renewer(DESKTOP-7KCLEF3.local.) state: announced', has data
+	version: 2.210
+	url: http://localhost:8080/jenkins/
+	server-id: e73c6bd162f3506a5d99c52cd4585311
+	path: /jenkins/]
+		Service: jenkins._http._tcp.local.: [ServiceInfoImpl@941934577 name: 'Jenkins._http._tcp.local.' address: 'DESKTOP-7KCLEF3/192.168.30.189:8080 null:8080 ' status: 'DNS: DESKTOP-7KCLEF3.local. [DESKTOP-7KCLEF3/192.168.30.189] state: announced task: Renewer(DESKTOP-7KCLEF3.local.) state: announced', has data
+	version: 2.210
+	url: http://localhost:8080/jenkins/
+	server-id: e73c6bd162f3506a5d99c52cd4585311
+	path: /jenkins/]
+	---- Types ----
+		Type: _http._tcp.local.: no subtypes
+		Type: _companion-link._tcp.local.: no subtypes
+		Type: _smb._tcp.local.: no subtypes
+		Type: _c4ds._tcp.local.: no subtypes
+		Type: _ssh._tcp.local.: no subtypes
+		Type: _rdlink._tcp.local.: no subtypes
+		Type: _teamviewer._tcp.local.: no subtypes
+		Type: _rfb._tcp.local.: no subtypes
+		Type: _raop._tcp.local.: no subtypes
+		Type: _sub._apple-mobdev2._tcp.local.: no subtypes
+		Type: _apple-mobdev2._tcp.local.: no subtypes
+		Type: _airplay._tcp.local.: no subtypes
+		Type: _xmind._tcp.local.: no subtypes
+		Type: _hudson._tcp.local.: no subtypes
+		Type: _rfb._udp.local.: no subtypes
+		Type: _sftp-ssh._tcp.local.: no subtypes
+		Type: _jenkins._tcp.local.: no subtypes
+
+	---- cache ----
+
+		name 'wangdl._device-info._tcp.local.'
+			[Text@1002764518 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: WangDL._device-info._tcp.local. ttl: '4498/4500' text: 'model=MacBookPro...']
+
+		name '8.c.a.b.5.3.f.5.7.0.4.9.b.b.c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.'
+			[Pointer@1083076823 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: 8.C.A.B.5.3.F.5.7.0.4.9.B.B.C.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa. ttl: '76/120' alias: 'Yuxiuyiteki-iPhone.local.']
+
+		name 'iphone-5.local.' : no entries
+
+		name 'e.6.0.e.c.5.4.b.5.e.9.2.3.a.c.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name 'appledeimac-2.local.'
+			[IPv6Address@1789652540 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: appledeiMac-2.local. ttl: '78/120' address: 'fe80:0:0:0:1ceb:53ee:3fb6:1310']
+			[IPv4Address@1957603287 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: appledeiMac-2.local. ttl: '78/120' address: '192.168.30.192']
+
+		name 'windowsde-iphone.local.' : no entries
+
+		name 'taobingzhidemacbook-pro.local.'
+			[IPv6Address@1748071020 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: taobingzhideMacBook-Pro.local. ttl: '55/120' address: 'fe80:0:0:0:107c:b1e:4b3c:c3e']
+			[IPv4Address@1535819637 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: taobingzhideMacBook-Pro.local. ttl: '55/120' address: '192.168.30.117']
+
+		name '1.b.1.9.6.0.e.f.f.f.8.7.4.f.2.2.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '37.30.168.192.in-addr.arpa.' : no entries
+
+		name 'mac的macbook pro._device-info._tcp.local.'
+			[Text@1860530230 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: mac的MacBook Pro._device-info._tcp.local. ttl: '4396/4500' text: 'model=MacBookPro...']
+
+		name '192-168-30-152.local.' : no entries
+
+		name '5.0.f.8.b.5.8.4.5.b.a.a.3.9.c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.'
+			[Pointer@1878323746 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: 5.0.F.8.B.5.8.4.5.B.A.A.3.9.C.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa. ttl: '119/120' alias: 'KIRAteki-iPhone-X.local.']
+
+		name '47010557._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name '218.30.168.192.in-addr.arpa.' : no entries
+
+		name '1.1.6.3.f.d.e.f.f.f.f.9.0.d.e.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '100.30.168.192.in-addr.arpa.' : no entries
+
+		name 'ma’s macbook pro._companion-link._tcp.local.'
+			[Text@213213090 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: Ma’s MacBook Pro._companion-link._tcp.local. ttl: '4210/4500' text: 'rpBA=64:56:DD:91...']
+
+		name '陶炳志的macbook pro (vnc server)._rfb._tcp.local.'
+			[Text@38418518 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 陶炳志的MacBook Pro (VNC Server)._rfb._tcp.local. ttl: '4180/4500' text: ' ']
+
+		name '8bc107b3._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name 'iphone6p-t.local.' : no entries
+
+		name 'bc:6c:21:07:31:2c@fe80::be6c:21ff:fe07:312c._apple-mobdev2._tcp.local.'
+			[Text@1198230761 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: bc:6c:21:07:31:2c@fe80::be6c:21ff:fe07:312c._apple-mobdev2._tcp.local. ttl: '2859/4500' text: ' ']
+
+		name '92e907d7._sub._apple-mobdev2._tcp.local.'
+			[Pointer@256250820 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: 92e907d7._sub._apple-mobdev2._tcp.local. ttl: '3324/3471' alias: 'e4:9a:dc:72:15:96@fe80::e69a:dcff:fe72:1596._apple-mobdev2._tcp.local.']
+
+		name 'apple的imac._device-info._tcp.local.'
+			[Text@698877377 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: apple的iMac._device-info._tcp.local. ttl: '4458/4500' text: 'model=iMac19,2
+o...']
+
+		name '14616a1d-3b2a-4fb1-8752-e8aa450707a8.local.'
+			[IPv6Address@2062745642 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: 14616a1d-3b2a-4fb1-8752-e8aa450707a8.local. ttl: '21/120' address: '0:0:0:0:0:0:0:0']
+
+		name 'desktop-mv4cc88.local.' : no entries
+
+		name '67832d2b-8d84-4f50-9ff3-0a2386aa4b23.local.'
+			[IPv4Address@1633998681 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: 67832d2b-8d84-4f50-9ff3-0a2386aa4b23.local. ttl: '19/120' address: '0.0.0.0']
+
+		name '97f6082b._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name 'tv._airplay._tcp.local.'
+			[Text@1577267330 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: TV._airplay._tcp.local. ttl: '3880/4500' text: 'rmodel=Android1,...']
+
+		name 'desktop-meb61gr.local.' : no entries
+
+		name 'ad4e668f-e4c7-4784-8807-258787bed1f7.local.' : no entries
+
+		name '234.30.168.192.in-addr.arpa.' : no entries
+
+		name '54:9f:13:df:54:9e@fe80::569f:13ff:fedf:549e._apple-mobdev2._tcp.local.'
+			[Text@938254478 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 54:9f:13:df:54:9e@fe80::569f:13ff:fedf:549e._apple-mobdev2._tcp.local. ttl: '2741/4500' text: ' ']
+
+		name 'macdemacbook-pro.local.'
+			[IPv4Address@1434194953 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: macdeMacBook-Pro.local. ttl: '16/120' address: '192.168.30.18']
+
+		name '赵万乐的macbook pro._device-info._tcp.local.'
+			[Text@317050848 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: 赵万乐的MacBook Pro._device-info._tcp.local. ttl: '4396/4500' text: 'model=MacBookPro...']
+
+		name 'dreamydemacbook-pro.local.' : no entries
+
+		name 'zym.local.' : no entries
+
+		name 'android-7.local.' : no entries
+
+		name 'uu_eric’s macbook pro._companion-link._tcp.local.'
+			[Text@1436908062 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: uu_eric’s MacBook Pro._companion-link._tcp.local. ttl: '4394/4500' text: 'rpBA=71:EA:92:AD...']
+
+		name '68:ab:1e:8b:ac:18@fe80::6aab:1eff:fe8b:ac18._apple-mobdev2._tcp.local.'
+			[Text@127879412 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 68:ab:1e:8b:ac:18@fe80::6aab:1eff:fe8b:ac18._apple-mobdev2._tcp.local. ttl: '4499/4500' text: ' ']
+			[Service@846649426 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: 68:ab:1e:8b:ac:18@fe80::6aab:1eff:fe8b:ac18._apple-mobdev2._tcp.local. ttl: '119/120' server: 'KIRAteki-iPhone-X.local.:32498']
+
+		name '_airplay._tcp.local.'
+			[Pointer@240163635 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _airplay._tcp.local. ttl: '3880/4500' alias: '我的天猫魔盒._airplay._tcp.local.']
+			[Pointer@1885037933 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _airplay._tcp.local. ttl: '3880/4500' alias: 'TV._airplay._tcp.local.']
+
+		name 'zym._device-info._tcp.local.'
+			[Text@234773370 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: zym._device-info._tcp.local. ttl: '2914/4500' text: 'model=iMac19,2
+o...']
+
+		name '49.30.168.192.in-addr.arpa.' : no entries
+
+		name '娜娜酱的macbook pro._companion-link._tcp.local.'
+			[Text@156149471 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 娜娜酱的MacBook Pro._companion-link._tcp.local. ttl: '4106/4500' text: 'rpHN=0d34e7ff01d...']
+
+		name 'iphone-3.local.' : no entries
+
+		name 'au000793changhaipeng.local.' : no entries
+
+		name '10:30:25:60:07:1a@fe80::1230:25ff:fe60:71a._apple-mobdev2._tcp.local.'
+			[Text@55389638 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 10:30:25:60:07:1a@fe80::1230:25ff:fe60:71a._apple-mobdev2._tcp.local. ttl: '3925/4500' text: ' ']
+
+		name 'aus-macbook-pro.local.'
+			[IPv6Address@680935631 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: Aus-MacBook-Pro.local. ttl: '106/120' address: 'fe80:0:0:0:1081:a406:d6f8:31d8']
+			[IPv4Address@1464658732 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: Aus-MacBook-Pro.local. ttl: '106/120' address: '192.168.30.228']
+
+		name '22.30.168.192.in-addr.arpa.' : no entries
+
+		name '162.30.168.192.in-addr.arpa.'
+			[Pointer@726193988 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: 162.30.168.192.in-addr.arpa. ttl: '119/120' alias: 'KIRAteki-iPhone-X.local.']
+
+		name '10.30.168.192.in-addr.arpa.' : no entries
+
+		name '_jenkins._tcp.local.'
+			[Pointer@1099037942 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _jenkins._tcp.local. ttl: '2060/3600' alias: 'jenkins._jenkins._tcp.local.']
+
+		name 'apple的imac._companion-link._tcp.local.'
+			[Text@1535859761 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: apple的iMac._companion-link._tcp.local. ttl: '4458/4500' text: 'rpBA=8F:6B:AE:5B...']
+			[Service@1798232551 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: apple的iMac._companion-link._tcp.local. ttl: '78/120' server: 'appledeiMac-2.local.:52572']
+
+		name 'e1a82301-49c5-421a-bf5f-658a609182db.local.' : no entries
+
+		name '1.3.d.b.8.5.6.2.e.e.d.9.4.a.c.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name 'dreamy的macbook pro (2)._smb._tcp.local.'
+			[Text@103928113 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: dreamy的MacBook Pro (2)._smb._tcp.local. ttl: '4180/4500' text: ' ']
+
+		name '5ce2d458-cfdd-42ec-9d96-1a821b447b35.local.'
+			[IPv6Address@1165950359 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: 5ce2d458-cfdd-42ec-9d96-1a821b447b35.local. ttl: '17/120' address: '0.0.0.0']
+
+		name '4ceb0579._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name 'au’s macbook pro._device-info._tcp.local.'
+			[Text@1209658189 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: Au’s MacBook Pro._device-info._tcp.local. ttl: '4486/4500' text: 'model=MacBookPro...']
+
+		name '_teamviewer._tcp.local.'
+			[Pointer@1240616107 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _teamviewer._tcp.local. ttl: '4486/4500' alias: '1567259153._teamviewer._tcp.local.']
+			[Pointer@1410221459 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _teamviewer._tcp.local. ttl: '3004/4500' alias: '1532645202._teamviewer._tcp.local.']
+
+		name 'iphonex-t.local.' : no entries
+
+		name '我的天猫魔盒._airplay._tcp.local.'
+			[Text@1556000378 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 我的天猫魔盒._airplay._tcp.local. ttl: '3880/4500' text: 'rmodel=Android1,...']
+
+		name '4.1.7.a.1.a.5.2.9.4.2.1.a.b.9.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name 'dreamy的macbook pro (2)._device-info._tcp.local.'
+			[Text@1543136547 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: dreamy的MacBook Pro (2)._device-info._tcp.local. ttl: '4180/4500' text: 'model=MacBookPro...']
+
+		name 'jenkins._jenkins._tcp.local.'
+			[Service@11988451 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: jenkins._jenkins._tcp.local. ttl: '2060/3600' server: 'DESKTOP-7KCLEF3-1.local.:8080']
+			[Text@649200315 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: jenkins._jenkins._tcp.local. ttl: '2060/3600' text: 'path=/jenkins/v...']
+
+		name 'jenkins._http._tcp.local.'
+			[Service@265725289 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: Jenkins._http._tcp.local. ttl: '2060/3600' server: 'DESKTOP-7KCLEF3-1.local.:8080']
+			[Text@126683853 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: Jenkins._http._tcp.local. ttl: '2060/3600' text: 'path=/jenkins/v...']
+
+		name '马一朝的macbook pro._companion-link._tcp.local.'
+			[Text@811808298 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 马一朝的MacBook Pro._companion-link._tcp.local. ttl: '4116/4500' text: 'rpBA=9C:31:61:30...']
+
+		name '523305a8._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name 'mac的macbook pro._companion-link._tcp.local.'
+			[Service@116546887 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: mac的MacBook Pro._companion-link._tcp.local. ttl: '16/120' server: 'macdeMacBook-Pro.local.:56796']
+			[Text@1018518813 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: mac的MacBook Pro._companion-link._tcp.local. ttl: '4396/4500' text: 'rpBA=54:64:99:7E...']
+
+		name 'desktop-pf3767c.local.' : no entries
+
+		name '90d607d2._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name 'localhost.local.' : no entries
+
+		name 'uu-erics-macbook-pro.local.'
+			[IPv6Address@1401021220 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: uu-erics-MacBook-Pro.local. ttl: '0/120' address: 'fe80:0:0:0:8a6:e26c:1980:94e2']
+			[IPv4Address@2063224088 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: uu-erics-MacBook-Pro.local. ttl: '0/120' address: '192.168.30.164']
+
+		name 'jack-macbook-pro-local.local.'
+			[IPv4Address@1861631845 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: Jack-Macbook-Pro-local.local. ttl: '2057/3600' address: '192.168.177.217']
+
+		name '陶炳志的macbook pro (vnc server)._rfb._udp.local.'
+			[Text@2017319443 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 陶炳志的MacBook Pro (VNC Server)._rfb._udp.local. ttl: '2889/4500' text: ' ']
+
+		name '_rdlink._tcp.local.'
+			[Pointer@611950323 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _rdlink._tcp.local. ttl: '3581/3588' alias: 'iPhone (2)._rdlink._tcp.local.']
+			[Pointer@205751785 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _rdlink._tcp.local. ttl: '3581/3588' alias: 'iPad (2)._rdlink._tcp.local.']
+
+		name 'mayizhaodemacbook-pro.local.' : no entries
+
+		name '62.30.168.192.in-addr.arpa.'
+			[Pointer@1402048019 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: 62.30.168.192.in-addr.arpa. ttl: '76/120' alias: 'Yuxiuyiteki-iPhone.local.']
+
+		name 'ipad (2)._device-info._tcp.local.'
+			[Text@1164585776 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: iPad (2)._device-info._tcp.local. ttl: '4480/4500' text: 'model=J71bAP']
+
+		name '135.30.168.192.in-addr.arpa.' : no entries
+
+		name '8.2.a.b.c.8.e.f.f.f.1.f.1.0.a.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '50.30.168.192.in-addr.arpa.' : no entries
+
+		name '159.30.168.192.in-addr.arpa.' : no entries
+
+		name 'apple的imac / apple._c4ds._tcp.local.'
+			[Text@755805032 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: apple的iMac / apple._c4ds._tcp.local. ttl: '3667/4500' text: 'Name=apple的iMac ...']
+
+		name 'c.0.0.5.9.d.d.4.1.0.5.1.2.0.4.d.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name 'wangdl123.local.'
+			[IPv4Address@1039146989 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: WangDL123.local. ttl: '118/120' address: '192.168.30.123']
+			[IPv6Address@1657728854 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: WangDL123.local. ttl: '118/120' address: 'fe80:0:0:0:14bb:3af1:b016:80d7']
+
+		name '88.30.168.192.in-addr.arpa.' : no entries
+
+		name 'zhaowanledemacbook-pro.local.'
+			[IPv4Address@1995008916 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: zhaowanledeMacBook-Pro.local. ttl: '16/120' address: '192.168.30.208']
+
+		name 'iphone (2)._device-info._tcp.local.'
+			[Text@1047972298 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: iPhone (2)._device-info._tcp.local. ttl: '4180/4500' text: 'model=N61AP']
+
+		name '马一朝的macbook pro._device-info._tcp.local.'
+			[Text@63223454 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: 马一朝的MacBook Pro._device-info._tcp.local. ttl: '4116/4500' text: 'model=MacBookPro...']
+
+		name '_sftp-ssh._tcp.local.'
+			[Pointer@384126447 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _sftp-ssh._tcp.local. ttl: '4486/4500' alias: 'Au’s MacBook Pro._sftp-ssh._tcp.local.']
+
+		name 'desktop-2c55qfm.local.' : no entries
+
+		name '9.2.4.2.a.9.e.f.f.f.a.3.e.c.a.d.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '_companion-link._tcp.local.'
+			[Pointer@736964972 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4495/4497' alias: '陶炳志的MacBook Pro._companion-link._tcp.local.']
+			[Pointer@593331522 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4495/4497' alias: '赵万乐的MacBook Pro._companion-link._tcp.local.']
+			[Pointer@93042673 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4495/4497' alias: '娜娜酱的MacBook Pro._companion-link._tcp.local.']
+			[Pointer@960305306 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4495/4497' alias: 'apple的iMac._companion-link._tcp.local.']
+			[Pointer@2073639040 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4495/4497' alias: 'Ma’s MacBook Pro._companion-link._tcp.local.']
+			[Pointer@874632484 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4495/4497' alias: 'iPad (2)._companion-link._tcp.local.']
+			[Pointer@1825425518 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4498/4500' alias: 'WangDL._companion-link._tcp.local.']
+			[Pointer@1030091941 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4495/4497' alias: '马一朝的MacBook Pro._companion-link._tcp.local.']
+			[Pointer@260740785 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4495/4497' alias: 'uu_eric’s MacBook Pro._companion-link._tcp.local.']
+			[Pointer@901315217 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4495/4497' alias: 'mac的MacBook Pro._companion-link._tcp.local.']
+
+		name '93.30.168.192.in-addr.arpa.' : no entries
+
+		name 'xuxmdemacbook-pro.local.' : no entries
+
+		name '赵万乐的macbook pro._companion-link._tcp.local.'
+			[Text@926206704 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 赵万乐的MacBook Pro._companion-link._tcp.local. ttl: '4396/4500' text: 'rpHN=67463de88e3...']
+			[Service@635883631 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: 赵万乐的MacBook Pro._companion-link._tcp.local. ttl: '16/120' server: 'zhaowanledeMacBook-Pro.local.:49600']
+
+		name '935c0817._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name 'ipad-2.local.'
+			[IPv6Address@2114123132 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: iPad-2.local. ttl: '70/120' address: 'fe80:0:0:0:1c42:4e6a:7d6d:2148']
+			[IPv4Address@211612767 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: iPad-2.local. ttl: '70/120' address: '192.168.30.243']
+
+		name '娜娜酱的macbook pro._device-info._tcp.local.'
+			[Text@493804662 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: 娜娜酱的MacBook Pro._device-info._tcp.local. ttl: '4106/4500' text: 'model=MacBookPro...']
+
+		name '228.30.168.192.in-addr.arpa.'
+			[Pointer@236454428 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: 228.30.168.192.in-addr.arpa. ttl: '106/120' alias: 'Aus-MacBook-Pro.local.']
+
+		name '54:33:cb:64:14:20@fe80::5633:cbff:fe64:1420._apple-mobdev2._tcp.local.'
+			[Text@1733865398 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 54:33:cb:64:14:20@fe80::5633:cbff:fe64:1420._apple-mobdev2._tcp.local. ttl: '4456/4500' text: ' ']
+			[Service@210604302 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: 54:33:cb:64:14:20@fe80::5633:cbff:fe64:1420._apple-mobdev2._tcp.local. ttl: '76/120' server: 'Yuxiuyiteki-iPhone.local.:32498']
+
+		name '929e0809._sub._apple-mobdev2._tcp.local.'
+			[Pointer@1743479173 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: 929e0809._sub._apple-mobdev2._tcp.local. ttl: '4499/4500' alias: '68:ab:1e:8b:ac:18@fe80::6aab:1eff:fe8b:ac18._apple-mobdev2._tcp.local.']
+
+		name 'yuxiuyiteki-iphone.local.'
+			[IPv6Address@699238278 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: Yuxiuyiteki-iPhone.local. ttl: '76/120' address: 'fe80:0:0:0:cbb:9407:5f35:bac8']
+			[IPv4Address@187349018 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: Yuxiuyiteki-iPhone.local. ttl: '76/120' address: '192.168.30.62']
+
+		name '000000000000@我的天猫魔盒._raop._tcp.local.'
+			[Text@1808747920 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 000000000000@我的天猫魔盒._raop._tcp.local. ttl: '3880/4500' text: '	txtvers=1ch=2c...']
+
+		name '91c507cb._sub._apple-mobdev2._tcp.local.'
+			[Pointer@1460989477 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: 91c507cb._sub._apple-mobdev2._tcp.local. ttl: '2886/3413' alias: 'bc:6c:21:07:31:2c@fe80::be6c:21ff:fe07:312c._apple-mobdev2._tcp.local.']
+
+		name '_xmind._tcp.local.'
+			[Pointer@314622710 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _xmind._tcp.local. ttl: '4251/4286' alias: 'WangDL._xmind._tcp.local.']
+			[Pointer@1291076316 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _xmind._tcp.local. ttl: '4106/4141' alias: '娜娜酱的MacBook Pro._xmind._tcp.local.']
+
+		name '179.30.168.192.in-addr.arpa.'
+			[Pointer@1564882207 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: 179.30.168.192.in-addr.arpa. ttl: '92/120' alias: 'Android-2.local.']
+
+		name 'ipad (2)._rdlink._tcp.local.'
+			[Text@768838996 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: iPad (2)._rdlink._tcp.local. ttl: '4184/4500' text: 'rpBA=C9:45:8B:9F...']
+
+		name 'au’s macbook pro._ssh._tcp.local.'
+			[Text@957361514 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: Au’s MacBook Pro._ssh._tcp.local. ttl: '4486/4500' text: ' ']
+			[Service@1469868598 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: Au’s MacBook Pro._ssh._tcp.local. ttl: '106/120' server: 'Aus-MacBook-Pro.local.:22']
+
+		name 'au’s macbook pro._sftp-ssh._tcp.local.'
+			[Text@1000227607 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: Au’s MacBook Pro._sftp-ssh._tcp.local. ttl: '4486/4500' text: ' ']
+			[Service@177651741 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: Au’s MacBook Pro._sftp-ssh._tcp.local. ttl: '106/120' server: 'Aus-MacBook-Pro.local.:22']
+
+		name 'desktop-u86ob3j.local.' : no entries
+
+		name 'xuxm的macbook pro._smb._tcp.local.'
+			[Text@844482392 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: xuxm的MacBook Pro._smb._tcp.local. ttl: '4180/4500' text: ' ']
+
+		name '9.9.2.4.8.2.9.2.1.c.d.9.b.3.4.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '8f9b07f6._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name 'desktop-7kclef3.local.' : no entries
+
+		name '8.d.1.3.8.f.6.d.6.0.4.a.1.8.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.'
+			[Pointer@103597822 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: 8.D.1.3.8.F.6.D.6.0.4.A.1.8.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa. ttl: '106/120' alias: 'Aus-MacBook-Pro.local.']
+
+		name '4c6a057a._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name '_rfb._tcp.local.'
+			[Pointer@1340324823 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _rfb._tcp.local. ttl: '3581/3588' alias: '陶炳志的MacBook Pro (VNC Server)._rfb._tcp.local.']
+
+		name '_raop._tcp.local.'
+			[Pointer@1942555678 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _raop._tcp.local. ttl: '3880/4500' alias: '000000000000@我的天猫魔盒._raop._tcp.local.']
+			[Pointer@1874491960 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _raop._tcp.local. ttl: '3880/4500' alias: '00FFFF0000FF@TV._raop._tcp.local.']
+
+		name 'au000759-ph.local.' : no entries
+
+		name '00ffff0000ff@tv._raop._tcp.local.'
+			[Text@264325639 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 00FFFF0000FF@TV._raop._tcp.local. ttl: '3880/4500' text: '	txtvers=1ch=2c...']
+
+		name 'kirateki-iphone-x.local.'
+			[IPv6Address@1571710251 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: KIRAteki-iPhone-X.local. ttl: '119/120' address: 'fe80:0:0:0:c93:aab5:485b:8f05']
+			[IPv4Address@1723607932 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: KIRAteki-iPhone-X.local. ttl: '119/120' address: '192.168.30.162']
+
+		name '陶炳志的macbook pro._device-info._tcp.local.'
+			[Text@1525413417 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: 陶炳志的MacBook Pro._device-info._tcp.local. ttl: '4435/4500' text: 'model=MacBookPro...']
+
+		name '532b05be._sub._apple-mobdev2._tcp.local.'
+			[Pointer@1610554881 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: 532b05be._sub._apple-mobdev2._tcp.local. ttl: '4499/4500' alias: '68:ab:1e:8b:ac:18@fe80::6aab:1eff:fe8b:ac18._apple-mobdev2._tcp.local.']
+
+		name '2fd27e58-7304-4f6b-a613-c629b9880372.local.'
+			[IPv4Address@1909899240 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: 2fd27e58-7304-4f6b-a613-c629b9880372.local. ttl: '15/120' address: '192.168.30.107']
+
+		name 'ipad.local.' : no entries
+
+		name '117.30.168.192.in-addr.arpa.' : no entries
+
+		name '_smb._tcp.local.'
+			[Pointer@1991679333 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _smb._tcp.local. ttl: '3581/3588' alias: 'dreamy的MacBook Pro (2)._smb._tcp.local.']
+			[Pointer@1944676132 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _smb._tcp.local. ttl: '3581/3588' alias: 'xuxm的MacBook Pro._smb._tcp.local.']
+			[Pointer@1421959246 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _smb._tcp.local. ttl: '3581/3588' alias: 'zym._smb._tcp.local.']
+
+		name '63e40f7c-de04-4b7b-a2fb-7cbfcde90e17.local.' : no entries
+
+		name '_ssh._tcp.local.'
+			[Pointer@271363265 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _ssh._tcp.local. ttl: '4486/4500' alias: 'Au’s MacBook Pro._ssh._tcp.local.']
+
+		name 'e.3.c.0.c.3.b.4.e.1.b.0.c.7.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '0.1.b.4.a.4.a.8.3.d.a.3.c.5.c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '9cab3bbf-3f4b-4b69-9575-be393e19d404.local.' : no entries
+
+		name '0._teamviewer._tcp.local.'
+			[Text@1379091988 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 0._teamviewer._tcp.local. ttl: '3128/4500' text: 'DyngateID=145511...']
+
+		name 'wangdl._companion-link._tcp.local.'
+			[Text@1784404785 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: WangDL._companion-link._tcp.local. ttl: '4498/4500' text: 'rpBA=BC:0B:B0:EC...']
+			[Service@893850916 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: WangDL._companion-link._tcp.local. ttl: '118/120' server: 'WangDL123.local.:51555']
+
+		name 'jenkins._hudson._tcp.local.'
+			[Service@1081671145 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: jenkins._hudson._tcp.local. ttl: '2060/3600' server: 'DESKTOP-7KCLEF3-1.local.:8080']
+			[Text@145952788 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: jenkins._hudson._tcp.local. ttl: '2060/3600' text: 'path=/jenkins/v...']
+
+		name '47690558._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name '1532645202._teamviewer._tcp.local.'
+			[Text@1007013984 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 1532645202._teamviewer._tcp.local. ttl: '3004/4500' text: 'DyngateID=153264...']
+
+		name 'localhost-2.local.' : no entries
+
+		name '1567259153._teamviewer._tcp.local.'
+			[Text@837164273 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 1567259153._teamviewer._tcp.local. ttl: '4486/4500' text: 'DyngateID=156725...']
+			[Service@922101905 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: 1567259153._teamviewer._tcp.local. ttl: '106/120' server: 'Aus-MacBook-Pro.local.:2020']
+
+		name 'iphone (2)._rdlink._tcp.local.'
+			[Text@651537899 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: iPhone (2)._rdlink._tcp.local. ttl: '4180/4500' text: 'rpBA=73:1F:6A:6A...']
+
+		name 'ipad (2)._companion-link._tcp.local.'
+			[Text@885129089 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: iPad (2)._companion-link._tcp.local. ttl: '4450/4500' text: 'rpBA=C9:45:8B:9F...']
+			[Service@893484156 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: iPad (2)._companion-link._tcp.local. ttl: '70/120' server: 'iPad-2.local.:58115']
+
+		name '娜娜酱的macbook pro._xmind._tcp.local.'
+			[Text@846489829 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 娜娜酱的MacBook Pro._xmind._tcp.local. ttl: '4106/4500' text: '	name=nanaver=1	...']
+
+		name 'ma’s macbook pro._device-info._tcp.local.'
+			[Text@960836021 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: Ma’s MacBook Pro._device-info._tcp.local. ttl: '4210/4500' text: 'model=MacBookPro...']
+
+		name 'd8:1c:79:5d:c9:bd@fe80::da1c:79ff:fe5d:c9bd._apple-mobdev2._tcp.local.'
+			[Text@46398699 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: d8:1c:79:5d:c9:bd@fe80::da1c:79ff:fe5d:c9bd._apple-mobdev2._tcp.local. ttl: '4174/4500' text: ' ']
+
+		name 'nanajiangdemacbook-pro.local.' : no entries
+
+		name 'desktop-7kclef3-5.local.' : no entries
+
+		name 'e4:9a:dc:72:15:96@fe80::e69a:dcff:fe72:1596._apple-mobdev2._tcp.local.'
+			[Text@1012912723 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: e4:9a:dc:72:15:96@fe80::e69a:dcff:fe72:1596._apple-mobdev2._tcp.local. ttl: '3324/4500' text: ' ']
+
+		name 'uu_eric’s macbook pro._device-info._tcp.local.'
+			[Text@763213437 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: uu_eric’s MacBook Pro._device-info._tcp.local. ttl: '4376/4500' text: 'model=MacBookPro...']
+
+		name '1dec10f0-04d8-44f1-8bc6-089007772934.local.' : no entries
+
+		name 'f4:0f:24:d8:6e:3f@fe80::f60f:24ff:fed8:6e3f._apple-mobdev2._tcp.local.'
+			[Text@1034285822 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: f4:0f:24:d8:6e:3f@fe80::f60f:24ff:fed8:6e3f._apple-mobdev2._tcp.local. ttl: '3847/4500' text: ' ']
+
+		name '195.30.168.192.in-addr.arpa.' : no entries
+
+		name 'xuxm的macbook pro._device-info._tcp.local.'
+			[Text@538731781 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: xuxm的MacBook Pro._device-info._tcp.local. ttl: '4180/4500' text: 'model=MacBookPro...']
+
+		name 'd.2.3.c.a.9.3.4.2.3.4.5.c.7.4.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name 'desktop-7kclef3-1.local.'
+			[IPv4Address@1653859871 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: DESKTOP-7KCLEF3-1.local. ttl: '3585/3600' address: '192.168.30.189']
+
+		name 'sc002-notebook.local.' : no entries
+
+		name '6e469670-a247-4c92-948e-306d3d19f222.local.' : no entries
+
+		name '_http._tcp.local.'
+			[Pointer@572357230 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _http._tcp.local. ttl: '2060/3600' alias: 'Jenkins._http._tcp.local.']
+			[Pointer@817712849 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _http._tcp.local. ttl: '3904/4500' alias: 'xuxm的MacBook Pro._http._tcp.local.']
+
+		name 'xuxm的macbook pro._http._tcp.local.'
+			[Text@1934238094 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: xuxm的MacBook Pro._http._tcp.local. ttl: '3904/4500' text: ' ']
+
+		name '_c4ds._tcp.local.'
+			[Pointer@236229350 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _c4ds._tcp.local. ttl: '3667/4500' alias: 'apple的iMac / apple._c4ds._tcp.local.']
+
+		name 'android.local.' : no entries
+
+		name '7.5.6.5.8.7.e.9.6.0.9.0.b.3.0.3.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name 'iphone.local.' : no entries
+
+		name '陶炳志的macbook pro._companion-link._tcp.local.'
+			[Service@1192445760 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: 陶炳志的MacBook Pro._companion-link._tcp.local. ttl: '55/120' server: 'taobingzhideMacBook-Pro.local.:58276']
+			[Text@495076021 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 陶炳志的MacBook Pro._companion-link._tcp.local. ttl: '4435/4500' text: 'rpBA=25:22:41:AB...']
+
+		name 'mas-macbook-pro.local.' : no entries
+
+		name 'wangdl._xmind._tcp.local.'
+			[Text@1072060122 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: WangDL._xmind._tcp.local. ttl: '3210/4500' text: 'name=WangDLver=...']
+
+		name '1.7.d.a.0.9.7.d.3.e.7.d.b.6.9.f.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '_apple-mobdev2._tcp.local.'
+			[Pointer@357527650 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _apple-mobdev2._tcp.local. ttl: '1327/2648' alias: 'bc:6c:21:07:31:2c@fe80::be6c:21ff:fe07:312c._apple-mobdev2._tcp.local.']
+			[Pointer@1220222156 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _apple-mobdev2._tcp.local. ttl: '3324/4500' alias: 'e4:9a:dc:72:15:96@fe80::e69a:dcff:fe72:1596._apple-mobdev2._tcp.local.']
+			[Pointer@1193506948 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _apple-mobdev2._tcp.local. ttl: '2860/4181' alias: '38:89:2c:a9:ae:4e@fe80::3a89:2cff:fea9:ae4e._apple-mobdev2._tcp.local.']
+			[Pointer@1249818172 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _apple-mobdev2._tcp.local. ttl: '4499/4500' alias: '68:ab:1e:8b:ac:18@fe80::6aab:1eff:fe8b:ac18._apple-mobdev2._tcp.local.']
+
+		name '38:89:2c:a9:ae:4e@fe80::3a89:2cff:fea9:ae4e._apple-mobdev2._tcp.local.'
+			[Text@618398577 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 38:89:2c:a9:ae:4e@fe80::3a89:2cff:fea9:ae4e._apple-mobdev2._tcp.local. ttl: '2859/4500' text: ' ']
+
+		name 'android-6.local.' : no entries
+
+		name '_hudson._tcp.local.'
+			[Pointer@881931866 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _hudson._tcp.local. ttl: '2060/3600' alias: 'jenkins._hudson._tcp.local.']
+
+		name '_rfb._udp.local.'
+			[Pointer@1756012308 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _rfb._udp.local. ttl: '2889/4500' alias: '陶炳志的MacBook Pro (VNC Server)._rfb._udp.local.']
+
+		name '18.30.168.192.in-addr.arpa.' : no entries
+
+		name 'android-2.local.'
+			[IPv4Address@1465518955 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: Android-2.local. ttl: '92/120' address: '192.168.30.179']
+
+		name 'zym._smb._tcp.local.'
+			[Text@333008250 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: zym._smb._tcp.local. ttl: '2914/4500' text: ' ']
+	---- Service Collectors ----
+	---- Service Listeners ----
+四月 02, 2020 4:51:21 下午 javax.jmdns.impl.JmDNSImpl cleanCache
+警告: DESKTOP-7KCLEF3.local..Error while reaping records: [IPv6Address@1165950359 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: 5ce2d458-cfdd-42ec-9d96-1a821b447b35.local. ttl: '7/120' address: '0.0.0.0']
+java.lang.ClassCastException: java.net.Inet4Address cannot be cast to java.net.Inet6Address
+	at javax.jmdns.impl.DNSRecord$IPv6Address.getServiceInfo(DNSRecord.java:285)
+	at javax.jmdns.impl.DNSRecord.getServiceInfo(DNSRecord.java:1036)
+	at javax.jmdns.impl.JmDNSImpl.cleanCache(JmDNSImpl.java:1888)
+	at javax.jmdns.impl.tasks.RecordReaper.run(RecordReaper.java:56)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+四月 02, 2020 4:51:21 下午 javax.jmdns.impl.JmDNSImpl cleanCache
+警告: 
+	---- Local Host -----
+	local host info[DESKTOP-7KCLEF3-1.local., Realtek PCIe GbE Family Controller:192.168.30.189, DNS: DESKTOP-7KCLEF3.local. [DESKTOP-7KCLEF3/192.168.30.189] state: announced task: Renewer(DESKTOP-7KCLEF3.local.) state: announced]
+	---- Services -----
+		Service: jenkins._hudson._tcp.local.: [ServiceInfoImpl@1334220519 name: 'jenkins._hudson._tcp.local.' address: 'DESKTOP-7KCLEF3/192.168.30.189:8080 null:8080 ' status: 'DNS: DESKTOP-7KCLEF3.local. [DESKTOP-7KCLEF3/192.168.30.189] state: announced task: Renewer(DESKTOP-7KCLEF3.local.) state: announced', has data
+	version: 2.210
+	url: http://localhost:8080/jenkins/
+	server-id: e73c6bd162f3506a5d99c52cd4585311
+	path: /jenkins/]
+		Service: jenkins._jenkins._tcp.local.: [ServiceInfoImpl@176427379 name: 'jenkins._jenkins._tcp.local.' address: 'DESKTOP-7KCLEF3/192.168.30.189:8080 null:8080 ' status: 'DNS: DESKTOP-7KCLEF3.local. [DESKTOP-7KCLEF3/192.168.30.189] state: announced task: Renewer(DESKTOP-7KCLEF3.local.) state: announced', has data
+	version: 2.210
+	url: http://localhost:8080/jenkins/
+	server-id: e73c6bd162f3506a5d99c52cd4585311
+	path: /jenkins/]
+		Service: jenkins._http._tcp.local.: [ServiceInfoImpl@941934577 name: 'Jenkins._http._tcp.local.' address: 'DESKTOP-7KCLEF3/192.168.30.189:8080 null:8080 ' status: 'DNS: DESKTOP-7KCLEF3.local. [DESKTOP-7KCLEF3/192.168.30.189] state: announced task: Renewer(DESKTOP-7KCLEF3.local.) state: announced', has data
+	version: 2.210
+	url: http://localhost:8080/jenkins/
+	server-id: e73c6bd162f3506a5d99c52cd4585311
+	path: /jenkins/]
+	---- Types ----
+		Type: _http._tcp.local.: no subtypes
+		Type: _companion-link._tcp.local.: no subtypes
+		Type: _smb._tcp.local.: no subtypes
+		Type: _c4ds._tcp.local.: no subtypes
+		Type: _ssh._tcp.local.: no subtypes
+		Type: _rdlink._tcp.local.: no subtypes
+		Type: _teamviewer._tcp.local.: no subtypes
+		Type: _rfb._tcp.local.: no subtypes
+		Type: _raop._tcp.local.: no subtypes
+		Type: _sub._apple-mobdev2._tcp.local.: no subtypes
+		Type: _apple-mobdev2._tcp.local.: no subtypes
+		Type: _airplay._tcp.local.: no subtypes
+		Type: _xmind._tcp.local.: no subtypes
+		Type: _hudson._tcp.local.: no subtypes
+		Type: _rfb._udp.local.: no subtypes
+		Type: _sftp-ssh._tcp.local.: no subtypes
+		Type: _jenkins._tcp.local.: no subtypes
+
+	---- cache ----
+
+		name 'wangdl._device-info._tcp.local.'
+			[Text@1002764518 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: WangDL._device-info._tcp.local. ttl: '4488/4500' text: 'model=MacBookPro...']
+
+		name '8.c.a.b.5.3.f.5.7.0.4.9.b.b.c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.'
+			[Pointer@1083076823 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: 8.C.A.B.5.3.F.5.7.0.4.9.B.B.C.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa. ttl: '66/120' alias: 'Yuxiuyiteki-iPhone.local.']
+
+		name 'iphone-5.local.' : no entries
+
+		name 'e.6.0.e.c.5.4.b.5.e.9.2.3.a.c.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name 'appledeimac-2.local.'
+			[IPv6Address@1789652540 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: appledeiMac-2.local. ttl: '68/120' address: 'fe80:0:0:0:1ceb:53ee:3fb6:1310']
+			[IPv4Address@1957603287 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: appledeiMac-2.local. ttl: '68/120' address: '192.168.30.192']
+
+		name 'windowsde-iphone.local.' : no entries
+
+		name 'taobingzhidemacbook-pro.local.'
+			[IPv6Address@1748071020 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: taobingzhideMacBook-Pro.local. ttl: '45/120' address: 'fe80:0:0:0:107c:b1e:4b3c:c3e']
+			[IPv4Address@1535819637 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: taobingzhideMacBook-Pro.local. ttl: '45/120' address: '192.168.30.117']
+
+		name '1.b.1.9.6.0.e.f.f.f.8.7.4.f.2.2.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '37.30.168.192.in-addr.arpa.' : no entries
+
+		name 'mac的macbook pro._device-info._tcp.local.'
+			[Text@1860530230 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: mac的MacBook Pro._device-info._tcp.local. ttl: '4386/4500' text: 'model=MacBookPro...']
+
+		name '192-168-30-152.local.' : no entries
+
+		name '5.0.f.8.b.5.8.4.5.b.a.a.3.9.c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.'
+			[Pointer@1878323746 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: 5.0.F.8.B.5.8.4.5.B.A.A.3.9.C.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa. ttl: '109/120' alias: 'KIRAteki-iPhone-X.local.']
+
+		name '47010557._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name '218.30.168.192.in-addr.arpa.' : no entries
+
+		name '1.1.6.3.f.d.e.f.f.f.f.9.0.d.e.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '100.30.168.192.in-addr.arpa.' : no entries
+
+		name 'ma’s macbook pro._companion-link._tcp.local.'
+			[Text@213213090 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: Ma’s MacBook Pro._companion-link._tcp.local. ttl: '4200/4500' text: 'rpBA=64:56:DD:91...']
+
+		name '陶炳志的macbook pro (vnc server)._rfb._tcp.local.'
+			[Text@38418518 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 陶炳志的MacBook Pro (VNC Server)._rfb._tcp.local. ttl: '4170/4500' text: ' ']
+
+		name '8bc107b3._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name 'iphone6p-t.local.' : no entries
+
+		name 'bc:6c:21:07:31:2c@fe80::be6c:21ff:fe07:312c._apple-mobdev2._tcp.local.'
+			[Text@1198230761 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: bc:6c:21:07:31:2c@fe80::be6c:21ff:fe07:312c._apple-mobdev2._tcp.local. ttl: '2849/4500' text: ' ']
+
+		name '92e907d7._sub._apple-mobdev2._tcp.local.'
+			[Pointer@256250820 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: 92e907d7._sub._apple-mobdev2._tcp.local. ttl: '3314/3471' alias: 'e4:9a:dc:72:15:96@fe80::e69a:dcff:fe72:1596._apple-mobdev2._tcp.local.']
+
+		name 'apple的imac._device-info._tcp.local.'
+			[Text@698877377 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: apple的iMac._device-info._tcp.local. ttl: '4448/4500' text: 'model=iMac19,2
+o...']
+
+		name '14616a1d-3b2a-4fb1-8752-e8aa450707a8.local.'
+			[IPv6Address@2062745642 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: 14616a1d-3b2a-4fb1-8752-e8aa450707a8.local. ttl: '11/120' address: '0:0:0:0:0:0:0:0']
+
+		name 'desktop-mv4cc88.local.' : no entries
+
+		name '67832d2b-8d84-4f50-9ff3-0a2386aa4b23.local.'
+			[IPv4Address@1633998681 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: 67832d2b-8d84-4f50-9ff3-0a2386aa4b23.local. ttl: '9/120' address: '0.0.0.0']
+
+		name '97f6082b._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name 'tv._airplay._tcp.local.'
+			[Text@1577267330 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: TV._airplay._tcp.local. ttl: '3870/4500' text: 'rmodel=Android1,...']
+
+		name 'desktop-meb61gr.local.' : no entries
+
+		name 'ad4e668f-e4c7-4784-8807-258787bed1f7.local.' : no entries
+
+		name '234.30.168.192.in-addr.arpa.' : no entries
+
+		name '54:9f:13:df:54:9e@fe80::569f:13ff:fedf:549e._apple-mobdev2._tcp.local.'
+			[Text@938254478 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 54:9f:13:df:54:9e@fe80::569f:13ff:fedf:549e._apple-mobdev2._tcp.local. ttl: '2731/4500' text: ' ']
+
+		name 'macdemacbook-pro.local.'
+			[IPv4Address@1434194953 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: macdeMacBook-Pro.local. ttl: '6/120' address: '192.168.30.18']
+
+		name '赵万乐的macbook pro._device-info._tcp.local.'
+			[Text@317050848 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: 赵万乐的MacBook Pro._device-info._tcp.local. ttl: '4386/4500' text: 'model=MacBookPro...']
+
+		name 'dreamydemacbook-pro.local.' : no entries
+
+		name 'zym.local.' : no entries
+
+		name 'android-7.local.' : no entries
+
+		name 'uu_eric’s macbook pro._companion-link._tcp.local.'
+			[Text@1436908062 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: uu_eric’s MacBook Pro._companion-link._tcp.local. ttl: '4384/4500' text: 'rpBA=71:EA:92:AD...']
+
+		name '68:ab:1e:8b:ac:18@fe80::6aab:1eff:fe8b:ac18._apple-mobdev2._tcp.local.'
+			[Text@127879412 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 68:ab:1e:8b:ac:18@fe80::6aab:1eff:fe8b:ac18._apple-mobdev2._tcp.local. ttl: '4489/4500' text: ' ']
+			[Service@846649426 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: 68:ab:1e:8b:ac:18@fe80::6aab:1eff:fe8b:ac18._apple-mobdev2._tcp.local. ttl: '109/120' server: 'KIRAteki-iPhone-X.local.:32498']
+
+		name '_airplay._tcp.local.'
+			[Pointer@240163635 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _airplay._tcp.local. ttl: '3870/4500' alias: '我的天猫魔盒._airplay._tcp.local.']
+			[Pointer@1885037933 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _airplay._tcp.local. ttl: '3870/4500' alias: 'TV._airplay._tcp.local.']
+
+		name 'zym._device-info._tcp.local.'
+			[Text@234773370 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: zym._device-info._tcp.local. ttl: '2904/4500' text: 'model=iMac19,2
+o...']
+
+		name '49.30.168.192.in-addr.arpa.'
+			[Pointer@313123406 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: 49.30.168.192.in-addr.arpa. ttl: '119/120' alias: 'iPhone6p-T.local.']
+
+		name '娜娜酱的macbook pro._companion-link._tcp.local.'
+			[Text@156149471 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 娜娜酱的MacBook Pro._companion-link._tcp.local. ttl: '4096/4500' text: 'rpHN=0d34e7ff01d...']
+
+		name 'iphone-3.local.' : no entries
+
+		name 'au000793changhaipeng.local.' : no entries
+
+		name '10:30:25:60:07:1a@fe80::1230:25ff:fe60:71a._apple-mobdev2._tcp.local.'
+			[Text@55389638 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 10:30:25:60:07:1a@fe80::1230:25ff:fe60:71a._apple-mobdev2._tcp.local. ttl: '3915/4500' text: ' ']
+
+		name 'aus-macbook-pro.local.'
+			[IPv6Address@680935631 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: Aus-MacBook-Pro.local. ttl: '117/120' address: 'fe80:0:0:0:1081:a406:d6f8:31d8']
+			[IPv4Address@1464658732 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: Aus-MacBook-Pro.local. ttl: '117/120' address: '192.168.30.228']
+
+		name '22.30.168.192.in-addr.arpa.' : no entries
+
+		name '162.30.168.192.in-addr.arpa.'
+			[Pointer@726193988 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: 162.30.168.192.in-addr.arpa. ttl: '109/120' alias: 'KIRAteki-iPhone-X.local.']
+
+		name '10.30.168.192.in-addr.arpa.' : no entries
+
+		name '_jenkins._tcp.local.'
+			[Pointer@1099037942 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _jenkins._tcp.local. ttl: '2050/3600' alias: 'jenkins._jenkins._tcp.local.']
+
+		name 'apple的imac._companion-link._tcp.local.'
+			[Text@1535859761 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: apple的iMac._companion-link._tcp.local. ttl: '4448/4500' text: 'rpBA=8F:6B:AE:5B...']
+			[Service@1798232551 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: apple的iMac._companion-link._tcp.local. ttl: '68/120' server: 'appledeiMac-2.local.:52572']
+
+		name 'e1a82301-49c5-421a-bf5f-658a609182db.local.' : no entries
+
+		name '1.3.d.b.8.5.6.2.e.e.d.9.4.a.c.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name 'dreamy的macbook pro (2)._smb._tcp.local.'
+			[Text@103928113 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: dreamy的MacBook Pro (2)._smb._tcp.local. ttl: '4170/4500' text: ' ']
+
+		name '5ce2d458-cfdd-42ec-9d96-1a821b447b35.local.'
+			[IPv6Address@1165950359 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: 5ce2d458-cfdd-42ec-9d96-1a821b447b35.local. ttl: '7/120' address: '0.0.0.0']
+
+		name '4ceb0579._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name 'au’s macbook pro._device-info._tcp.local.'
+			[Text@1209658189 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: Au’s MacBook Pro._device-info._tcp.local. ttl: '4497/4500' text: 'model=MacBookPro...']
+
+		name '_teamviewer._tcp.local.'
+			[Pointer@1240616107 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _teamviewer._tcp.local. ttl: '4497/4500' alias: '1567259153._teamviewer._tcp.local.']
+			[Pointer@1410221459 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _teamviewer._tcp.local. ttl: '2994/4500' alias: '1532645202._teamviewer._tcp.local.']
+
+		name 'iphonex-t.local.' : no entries
+
+		name '我的天猫魔盒._airplay._tcp.local.'
+			[Text@1556000378 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 我的天猫魔盒._airplay._tcp.local. ttl: '3870/4500' text: 'rmodel=Android1,...']
+
+		name '4.1.7.a.1.a.5.2.9.4.2.1.a.b.9.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name 'dreamy的macbook pro (2)._device-info._tcp.local.'
+			[Text@1543136547 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: dreamy的MacBook Pro (2)._device-info._tcp.local. ttl: '4170/4500' text: 'model=MacBookPro...']
+
+		name 'jenkins._jenkins._tcp.local.'
+			[Service@11988451 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: jenkins._jenkins._tcp.local. ttl: '2050/3600' server: 'DESKTOP-7KCLEF3-1.local.:8080']
+			[Text@649200315 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: jenkins._jenkins._tcp.local. ttl: '2050/3600' text: 'path=/jenkins/v...']
+
+		name 'jenkins._http._tcp.local.'
+			[Service@265725289 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: Jenkins._http._tcp.local. ttl: '2050/3600' server: 'DESKTOP-7KCLEF3-1.local.:8080']
+			[Text@126683853 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: Jenkins._http._tcp.local. ttl: '2050/3600' text: 'path=/jenkins/v...']
+
+		name '马一朝的macbook pro._companion-link._tcp.local.'
+			[Text@811808298 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 马一朝的MacBook Pro._companion-link._tcp.local. ttl: '4106/4500' text: 'rpBA=9C:31:61:30...']
+
+		name '523305a8._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name 'mac的macbook pro._companion-link._tcp.local.'
+			[Service@116546887 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: mac的MacBook Pro._companion-link._tcp.local. ttl: '6/120' server: 'macdeMacBook-Pro.local.:56796']
+			[Text@1018518813 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: mac的MacBook Pro._companion-link._tcp.local. ttl: '4386/4500' text: 'rpBA=54:64:99:7E...']
+
+		name 'desktop-pf3767c.local.' : no entries
+
+		name '90d607d2._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name 'localhost.local.' : no entries
+
+		name 'uu-erics-macbook-pro.local.' : no entries
+
+		name 'jack-macbook-pro-local.local.'
+			[IPv4Address@1861631845 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: Jack-Macbook-Pro-local.local. ttl: '2047/3600' address: '192.168.177.217']
+
+		name '陶炳志的macbook pro (vnc server)._rfb._udp.local.'
+			[Text@2017319443 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 陶炳志的MacBook Pro (VNC Server)._rfb._udp.local. ttl: '2879/4500' text: ' ']
+
+		name '_rdlink._tcp.local.'
+			[Pointer@611950323 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _rdlink._tcp.local. ttl: '3571/3577' alias: 'iPhone (2)._rdlink._tcp.local.']
+			[Pointer@205751785 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _rdlink._tcp.local. ttl: '3571/3577' alias: 'iPad (2)._rdlink._tcp.local.']
+
+		name 'mayizhaodemacbook-pro.local.' : no entries
+
+		name '62.30.168.192.in-addr.arpa.'
+			[Pointer@1402048019 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: 62.30.168.192.in-addr.arpa. ttl: '66/120' alias: 'Yuxiuyiteki-iPhone.local.']
+
+		name 'ipad (2)._device-info._tcp.local.'
+			[Text@1164585776 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: iPad (2)._device-info._tcp.local. ttl: '4470/4500' text: 'model=J71bAP']
+
+		name '135.30.168.192.in-addr.arpa.' : no entries
+
+		name '8.2.a.b.c.8.e.f.f.f.1.f.1.0.a.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '50.30.168.192.in-addr.arpa.' : no entries
+
+		name '159.30.168.192.in-addr.arpa.' : no entries
+
+		name 'apple的imac / apple._c4ds._tcp.local.'
+			[Text@755805032 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: apple的iMac / apple._c4ds._tcp.local. ttl: '3657/4500' text: 'Name=apple的iMac ...']
+
+		name 'c.0.0.5.9.d.d.4.1.0.5.1.2.0.4.d.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name 'wangdl123.local.'
+			[IPv4Address@1039146989 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: WangDL123.local. ttl: '108/120' address: '192.168.30.123']
+			[IPv6Address@1657728854 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: WangDL123.local. ttl: '108/120' address: 'fe80:0:0:0:14bb:3af1:b016:80d7']
+
+		name '88.30.168.192.in-addr.arpa.' : no entries
+
+		name 'zhaowanledemacbook-pro.local.'
+			[IPv4Address@1995008916 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: zhaowanledeMacBook-Pro.local. ttl: '6/120' address: '192.168.30.208']
+
+		name 'iphone (2)._device-info._tcp.local.'
+			[Text@1047972298 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: iPhone (2)._device-info._tcp.local. ttl: '4170/4500' text: 'model=N61AP']
+
+		name '马一朝的macbook pro._device-info._tcp.local.'
+			[Text@63223454 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: 马一朝的MacBook Pro._device-info._tcp.local. ttl: '4106/4500' text: 'model=MacBookPro...']
+
+		name '_sftp-ssh._tcp.local.'
+			[Pointer@384126447 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _sftp-ssh._tcp.local. ttl: '4497/4500' alias: 'Au’s MacBook Pro._sftp-ssh._tcp.local.']
+
+		name 'desktop-2c55qfm.local.' : no entries
+
+		name '9.2.4.2.a.9.e.f.f.f.a.3.e.c.a.d.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '_companion-link._tcp.local.'
+			[Pointer@736964972 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4485/4488' alias: '陶炳志的MacBook Pro._companion-link._tcp.local.']
+			[Pointer@593331522 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4485/4488' alias: '赵万乐的MacBook Pro._companion-link._tcp.local.']
+			[Pointer@93042673 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4485/4488' alias: '娜娜酱的MacBook Pro._companion-link._tcp.local.']
+			[Pointer@960305306 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4485/4488' alias: 'apple的iMac._companion-link._tcp.local.']
+			[Pointer@2073639040 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4485/4488' alias: 'Ma’s MacBook Pro._companion-link._tcp.local.']
+			[Pointer@874632484 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4485/4488' alias: 'iPad (2)._companion-link._tcp.local.']
+			[Pointer@1825425518 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4499/4500' alias: 'WangDL._companion-link._tcp.local.']
+			[Pointer@1030091941 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4485/4488' alias: '马一朝的MacBook Pro._companion-link._tcp.local.']
+			[Pointer@260740785 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4485/4488' alias: 'uu_eric’s MacBook Pro._companion-link._tcp.local.']
+			[Pointer@901315217 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _companion-link._tcp.local. ttl: '4485/4488' alias: 'mac的MacBook Pro._companion-link._tcp.local.']
+
+		name '93.30.168.192.in-addr.arpa.' : no entries
+
+		name 'xuxmdemacbook-pro.local.' : no entries
+
+		name '赵万乐的macbook pro._companion-link._tcp.local.'
+			[Text@926206704 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 赵万乐的MacBook Pro._companion-link._tcp.local. ttl: '4386/4500' text: 'rpHN=67463de88e3...']
+			[Service@635883631 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: 赵万乐的MacBook Pro._companion-link._tcp.local. ttl: '6/120' server: 'zhaowanledeMacBook-Pro.local.:49600']
+
+		name '935c0817._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name 'ipad-2.local.'
+			[IPv6Address@2114123132 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: iPad-2.local. ttl: '60/120' address: 'fe80:0:0:0:1c42:4e6a:7d6d:2148']
+			[IPv4Address@211612767 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: iPad-2.local. ttl: '60/120' address: '192.168.30.243']
+
+		name '娜娜酱的macbook pro._device-info._tcp.local.'
+			[Text@493804662 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: 娜娜酱的MacBook Pro._device-info._tcp.local. ttl: '4096/4500' text: 'model=MacBookPro...']
+
+		name '228.30.168.192.in-addr.arpa.'
+			[Pointer@236454428 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: 228.30.168.192.in-addr.arpa. ttl: '96/120' alias: 'Aus-MacBook-Pro.local.']
+
+		name '54:33:cb:64:14:20@fe80::5633:cbff:fe64:1420._apple-mobdev2._tcp.local.'
+			[Text@1733865398 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 54:33:cb:64:14:20@fe80::5633:cbff:fe64:1420._apple-mobdev2._tcp.local. ttl: '4446/4500' text: ' ']
+			[Service@210604302 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: 54:33:cb:64:14:20@fe80::5633:cbff:fe64:1420._apple-mobdev2._tcp.local. ttl: '66/120' server: 'Yuxiuyiteki-iPhone.local.:32498']
+
+		name '929e0809._sub._apple-mobdev2._tcp.local.'
+			[Pointer@1743479173 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: 929e0809._sub._apple-mobdev2._tcp.local. ttl: '0/1' alias: '68:ab:1e:8b:ac:18@fe80::6aab:1eff:fe8b:ac18._apple-mobdev2._tcp.local.']
+
+		name 'yuxiuyiteki-iphone.local.'
+			[IPv6Address@699238278 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: Yuxiuyiteki-iPhone.local. ttl: '66/120' address: 'fe80:0:0:0:cbb:9407:5f35:bac8']
+			[IPv4Address@187349018 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: Yuxiuyiteki-iPhone.local. ttl: '66/120' address: '192.168.30.62']
+
+		name '000000000000@我的天猫魔盒._raop._tcp.local.'
+			[Text@1808747920 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 000000000000@我的天猫魔盒._raop._tcp.local. ttl: '3870/4500' text: '	txtvers=1ch=2c...']
+
+		name '91c507cb._sub._apple-mobdev2._tcp.local.'
+			[Pointer@1460989477 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: 91c507cb._sub._apple-mobdev2._tcp.local. ttl: '2876/3413' alias: 'bc:6c:21:07:31:2c@fe80::be6c:21ff:fe07:312c._apple-mobdev2._tcp.local.']
+
+		name '_xmind._tcp.local.'
+			[Pointer@314622710 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _xmind._tcp.local. ttl: '4241/4286' alias: 'WangDL._xmind._tcp.local.']
+			[Pointer@1291076316 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _xmind._tcp.local. ttl: '4096/4141' alias: '娜娜酱的MacBook Pro._xmind._tcp.local.']
+
+		name '179.30.168.192.in-addr.arpa.'
+			[Pointer@1564882207 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: 179.30.168.192.in-addr.arpa. ttl: '114/120' alias: 'Android-2.local.']
+
+		name 'ipad (2)._rdlink._tcp.local.'
+			[Text@768838996 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: iPad (2)._rdlink._tcp.local. ttl: '4174/4500' text: 'rpBA=C9:45:8B:9F...']
+
+		name 'au’s macbook pro._ssh._tcp.local.'
+			[Text@957361514 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: Au’s MacBook Pro._ssh._tcp.local. ttl: '4497/4500' text: ' ']
+			[Service@1469868598 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: Au’s MacBook Pro._ssh._tcp.local. ttl: '117/120' server: 'Aus-MacBook-Pro.local.:22']
+
+		name 'au’s macbook pro._sftp-ssh._tcp.local.'
+			[Text@1000227607 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: Au’s MacBook Pro._sftp-ssh._tcp.local. ttl: '4497/4500' text: ' ']
+			[Service@177651741 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: Au’s MacBook Pro._sftp-ssh._tcp.local. ttl: '117/120' server: 'Aus-MacBook-Pro.local.:22']
+
+		name 'desktop-u86ob3j.local.' : no entries
+
+		name 'xuxm的macbook pro._smb._tcp.local.'
+			[Text@844482392 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: xuxm的MacBook Pro._smb._tcp.local. ttl: '4170/4500' text: ' ']
+
+		name '9.9.2.4.8.2.9.2.1.c.d.9.b.3.4.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '8f9b07f6._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name 'desktop-7kclef3.local.' : no entries
+
+		name '8.d.1.3.8.f.6.d.6.0.4.a.1.8.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.'
+			[Pointer@103597822 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: 8.D.1.3.8.F.6.D.6.0.4.A.1.8.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa. ttl: '96/120' alias: 'Aus-MacBook-Pro.local.']
+
+		name '4c6a057a._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name '_rfb._tcp.local.'
+			[Pointer@1340324823 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _rfb._tcp.local. ttl: '3571/3577' alias: '陶炳志的MacBook Pro (VNC Server)._rfb._tcp.local.']
+
+		name '_raop._tcp.local.'
+			[Pointer@1942555678 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _raop._tcp.local. ttl: '3870/4500' alias: '000000000000@我的天猫魔盒._raop._tcp.local.']
+			[Pointer@1874491960 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _raop._tcp.local. ttl: '3870/4500' alias: '00FFFF0000FF@TV._raop._tcp.local.']
+
+		name 'au000759-ph.local.' : no entries
+
+		name '00ffff0000ff@tv._raop._tcp.local.'
+			[Text@264325639 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 00FFFF0000FF@TV._raop._tcp.local. ttl: '3870/4500' text: '	txtvers=1ch=2c...']
+
+		name 'kirateki-iphone-x.local.'
+			[IPv6Address@1571710251 type: TYPE_AAAA index 28, class: CLASS_IN index 1-unique, name: KIRAteki-iPhone-X.local. ttl: '109/120' address: 'fe80:0:0:0:c93:aab5:485b:8f05']
+			[IPv4Address@1723607932 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: KIRAteki-iPhone-X.local. ttl: '109/120' address: '192.168.30.162']
+
+		name '陶炳志的macbook pro._device-info._tcp.local.'
+			[Text@1525413417 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: 陶炳志的MacBook Pro._device-info._tcp.local. ttl: '4425/4500' text: 'model=MacBookPro...']
+
+		name '532b05be._sub._apple-mobdev2._tcp.local.'
+			[Pointer@1610554881 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: 532b05be._sub._apple-mobdev2._tcp.local. ttl: '0/1' alias: '68:ab:1e:8b:ac:18@fe80::6aab:1eff:fe8b:ac18._apple-mobdev2._tcp.local.']
+
+		name '2fd27e58-7304-4f6b-a613-c629b9880372.local.'
+			[IPv4Address@1909899240 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: 2fd27e58-7304-4f6b-a613-c629b9880372.local. ttl: '5/120' address: '192.168.30.107']
+
+		name 'ipad.local.' : no entries
+
+		name '117.30.168.192.in-addr.arpa.' : no entries
+
+		name '_smb._tcp.local.'
+			[Pointer@1991679333 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _smb._tcp.local. ttl: '3571/3577' alias: 'dreamy的MacBook Pro (2)._smb._tcp.local.']
+			[Pointer@1944676132 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _smb._tcp.local. ttl: '3571/3577' alias: 'xuxm的MacBook Pro._smb._tcp.local.']
+			[Pointer@1421959246 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _smb._tcp.local. ttl: '3571/3577' alias: 'zym._smb._tcp.local.']
+
+		name '63e40f7c-de04-4b7b-a2fb-7cbfcde90e17.local.' : no entries
+
+		name '_ssh._tcp.local.'
+			[Pointer@271363265 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _ssh._tcp.local. ttl: '4497/4500' alias: 'Au’s MacBook Pro._ssh._tcp.local.']
+
+		name 'e.3.c.0.c.3.b.4.e.1.b.0.c.7.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '0.1.b.4.a.4.a.8.3.d.a.3.c.5.c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '9cab3bbf-3f4b-4b69-9575-be393e19d404.local.' : no entries
+
+		name '0._teamviewer._tcp.local.'
+			[Text@1379091988 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 0._teamviewer._tcp.local. ttl: '3118/4500' text: 'DyngateID=145511...']
+
+		name 'wangdl._companion-link._tcp.local.'
+			[Text@1784404785 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: WangDL._companion-link._tcp.local. ttl: '4488/4500' text: 'rpBA=BC:0B:B0:EC...']
+			[Service@893850916 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: WangDL._companion-link._tcp.local. ttl: '108/120' server: 'WangDL123.local.:51555']
+
+		name 'jenkins._hudson._tcp.local.'
+			[Service@1081671145 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: jenkins._hudson._tcp.local. ttl: '2050/3600' server: 'DESKTOP-7KCLEF3-1.local.:8080']
+			[Text@145952788 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: jenkins._hudson._tcp.local. ttl: '2050/3600' text: 'path=/jenkins/v...']
+
+		name '47690558._sub._apple-mobdev2._tcp.local.' : no entries
+
+		name '1532645202._teamviewer._tcp.local.'
+			[Text@1007013984 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 1532645202._teamviewer._tcp.local. ttl: '2994/4500' text: 'DyngateID=153264...']
+
+		name 'localhost-2.local.' : no entries
+
+		name '1567259153._teamviewer._tcp.local.'
+			[Text@837164273 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 1567259153._teamviewer._tcp.local. ttl: '4497/4500' text: 'DyngateID=156725...']
+			[Service@922101905 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: 1567259153._teamviewer._tcp.local. ttl: '117/120' server: 'Aus-MacBook-Pro.local.:2020']
+
+		name 'iphone (2)._rdlink._tcp.local.'
+			[Text@651537899 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: iPhone (2)._rdlink._tcp.local. ttl: '4170/4500' text: 'rpBA=73:1F:6A:6A...']
+
+		name 'ipad (2)._companion-link._tcp.local.'
+			[Text@885129089 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: iPad (2)._companion-link._tcp.local. ttl: '4440/4500' text: 'rpBA=C9:45:8B:9F...']
+			[Service@893484156 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: iPad (2)._companion-link._tcp.local. ttl: '60/120' server: 'iPad-2.local.:58115']
+
+		name '娜娜酱的macbook pro._xmind._tcp.local.'
+			[Text@846489829 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 娜娜酱的MacBook Pro._xmind._tcp.local. ttl: '4096/4500' text: '	name=nanaver=1	...']
+
+		name 'ma’s macbook pro._device-info._tcp.local.'
+			[Text@960836021 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: Ma’s MacBook Pro._device-info._tcp.local. ttl: '4200/4500' text: 'model=MacBookPro...']
+
+		name 'd8:1c:79:5d:c9:bd@fe80::da1c:79ff:fe5d:c9bd._apple-mobdev2._tcp.local.'
+			[Text@46398699 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: d8:1c:79:5d:c9:bd@fe80::da1c:79ff:fe5d:c9bd._apple-mobdev2._tcp.local. ttl: '4164/4500' text: ' ']
+
+		name 'nanajiangdemacbook-pro.local.' : no entries
+
+		name 'desktop-7kclef3-5.local.' : no entries
+
+		name 'e4:9a:dc:72:15:96@fe80::e69a:dcff:fe72:1596._apple-mobdev2._tcp.local.'
+			[Text@1012912723 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: e4:9a:dc:72:15:96@fe80::e69a:dcff:fe72:1596._apple-mobdev2._tcp.local. ttl: '3314/4500' text: ' ']
+
+		name 'uu_eric’s macbook pro._device-info._tcp.local.'
+			[Text@763213437 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: uu_eric’s MacBook Pro._device-info._tcp.local. ttl: '4366/4500' text: 'model=MacBookPro...']
+
+		name '1dec10f0-04d8-44f1-8bc6-089007772934.local.' : no entries
+
+		name 'f4:0f:24:d8:6e:3f@fe80::f60f:24ff:fed8:6e3f._apple-mobdev2._tcp.local.'
+			[Text@1034285822 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: f4:0f:24:d8:6e:3f@fe80::f60f:24ff:fed8:6e3f._apple-mobdev2._tcp.local. ttl: '3837/4500' text: ' ']
+
+		name '195.30.168.192.in-addr.arpa.' : no entries
+
+		name 'xuxm的macbook pro._device-info._tcp.local.'
+			[Text@538731781 type: TYPE_TXT index 16, class: CLASS_IN index 1, name: xuxm的MacBook Pro._device-info._tcp.local. ttl: '4170/4500' text: 'model=MacBookPro...']
+
+		name 'd.2.3.c.a.9.3.4.2.3.4.5.c.7.4.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.'
+			[Pointer@355447331 type: TYPE_PTR index 12, class: CLASS_IN index 1-unique, name: D.2.3.C.A.9.3.4.2.3.4.5.C.7.4.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa. ttl: '119/120' alias: 'iPhone6p-T.local.']
+
+		name 'desktop-7kclef3-1.local.'
+			[IPv4Address@1653859871 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: DESKTOP-7KCLEF3-1.local. ttl: '3593/3600' address: '192.168.30.189']
+
+		name 'sc002-notebook.local.' : no entries
+
+		name '6e469670-a247-4c92-948e-306d3d19f222.local.' : no entries
+
+		name '_http._tcp.local.'
+			[Pointer@572357230 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _http._tcp.local. ttl: '2050/3600' alias: 'Jenkins._http._tcp.local.']
+			[Pointer@817712849 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _http._tcp.local. ttl: '3894/4500' alias: 'xuxm的MacBook Pro._http._tcp.local.']
+
+		name 'xuxm的macbook pro._http._tcp.local.'
+			[Text@1934238094 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: xuxm的MacBook Pro._http._tcp.local. ttl: '3894/4500' text: ' ']
+
+		name '_c4ds._tcp.local.'
+			[Pointer@236229350 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _c4ds._tcp.local. ttl: '3657/4500' alias: 'apple的iMac / apple._c4ds._tcp.local.']
+
+		name 'android.local.' : no entries
+
+		name '7.5.6.5.8.7.e.9.6.0.9.0.b.3.0.3.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name 'iphone.local.' : no entries
+
+		name '陶炳志的macbook pro._companion-link._tcp.local.'
+			[Service@1192445760 type: TYPE_SRV index 33, class: CLASS_IN index 1-unique, name: 陶炳志的MacBook Pro._companion-link._tcp.local. ttl: '45/120' server: 'taobingzhideMacBook-Pro.local.:58276']
+			[Text@495076021 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 陶炳志的MacBook Pro._companion-link._tcp.local. ttl: '4425/4500' text: 'rpBA=25:22:41:AB...']
+
+		name 'mas-macbook-pro.local.' : no entries
+
+		name 'wangdl._xmind._tcp.local.'
+			[Text@1072060122 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: WangDL._xmind._tcp.local. ttl: '3200/4500' text: 'name=WangDLver=...']
+
+		name '1.7.d.a.0.9.7.d.3.e.7.d.b.6.9.f.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.' : no entries
+
+		name '_apple-mobdev2._tcp.local.'
+			[Pointer@357527650 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _apple-mobdev2._tcp.local. ttl: '1317/2648' alias: 'bc:6c:21:07:31:2c@fe80::be6c:21ff:fe07:312c._apple-mobdev2._tcp.local.']
+			[Pointer@1220222156 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _apple-mobdev2._tcp.local. ttl: '3314/4500' alias: 'e4:9a:dc:72:15:96@fe80::e69a:dcff:fe72:1596._apple-mobdev2._tcp.local.']
+			[Pointer@1193506948 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _apple-mobdev2._tcp.local. ttl: '2850/4181' alias: '38:89:2c:a9:ae:4e@fe80::3a89:2cff:fea9:ae4e._apple-mobdev2._tcp.local.']
+			[Pointer@1249818172 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _apple-mobdev2._tcp.local. ttl: '0/1' alias: '68:ab:1e:8b:ac:18@fe80::6aab:1eff:fe8b:ac18._apple-mobdev2._tcp.local.']
+
+		name '38:89:2c:a9:ae:4e@fe80::3a89:2cff:fea9:ae4e._apple-mobdev2._tcp.local.'
+			[Text@618398577 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: 38:89:2c:a9:ae:4e@fe80::3a89:2cff:fea9:ae4e._apple-mobdev2._tcp.local. ttl: '2849/4500' text: ' ']
+
+		name 'android-6.local.' : no entries
+
+		name '_hudson._tcp.local.'
+			[Pointer@881931866 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _hudson._tcp.local. ttl: '2050/3600' alias: 'jenkins._hudson._tcp.local.']
+
+		name '_rfb._udp.local.'
+			[Pointer@1756012308 type: TYPE_PTR index 12, class: CLASS_IN index 1, name: _rfb._udp.local. ttl: '2879/4500' alias: '陶炳志的MacBook Pro (VNC Server)._rfb._udp.local.']
+
+		name '18.30.168.192.in-addr.arpa.' : no entries
+
+		name 'android-2.local.'
+			[IPv4Address@1465518955 type: TYPE_A index 1, class: CLASS_IN index 1-unique, name: Android-2.local. ttl: '114/120' address: '192.168.30.179']
+
+		name 'zym._smb._tcp.local.'
+			[Text@333008250 type: TYPE_TXT index 16, class: CLASS_IN index 1-unique, name: zym._smb._tcp.local. ttl: '2904/4500' text: ' ']
+	---- Service Collectors ----
+	---- Service Listeners ----
+四月 02, 2020 9:04:00 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started telemetry collection
+四月 02, 2020 9:04:00 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished telemetry collection. 8 ms

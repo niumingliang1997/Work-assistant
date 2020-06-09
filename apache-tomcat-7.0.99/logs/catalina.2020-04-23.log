@@ -1,0 +1,616 @@
+四月 23, 2020 9:42:59 上午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 9:42:59 上午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 9:42:59 上午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 707b800000000002 0000000004554e53 43085f646973706c 6179045f74637005     p{...... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 9:42:59 上午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 9:42:59 上午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 707b800000000002 0000000004554e53 43085f646973706c 6179045f74637005     p{...... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 9:42:59 上午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 9:42:59 上午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 9:42:59 上午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: efad800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 9:42:59 上午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 9:42:59 上午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: efad800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 9:49:03 上午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 9:49:03 上午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 9:49:03 上午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 1621800000000002 0000000004554e53 43085f646973706c 6179045f74637005     .!...... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 9:49:03 上午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 9:49:03 上午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 1621800000000002 0000000004554e53 43085f646973706c 6179045f74637005     .!...... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 9:49:04 上午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 9:49:04 上午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 9:49:04 上午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: d460800000000002 0000000004554e53 43085f646973706c 6179045f74637005     .`...... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 9:49:04 上午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 9:49:04 上午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: d460800000000002 0000000004554e53 43085f646973706c 6179045f74637005     .`...... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 12:57:36 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 12:57:36 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 12:57:36 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: f5ff800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 12:57:36 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 12:57:36 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: f5ff800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 12:57:37 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 12:57:37 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 12:57:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: fc83800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 12:57:37 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 12:57:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: fc83800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:01:35 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:01:35 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:01:35 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 73fc800000000002 0000000004554e53 43085f646973706c 6179045f74637005     s....... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:01:35 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:01:35 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 73fc800000000002 0000000004554e53 43085f646973706c 6179045f74637005     s....... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:01:36 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:01:36 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:01:36 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: f4bb800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:01:36 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:01:36 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: f4bb800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:35:29 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:35:29 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:35:29 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 81c6800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:35:29 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:35:29 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 81c6800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:35:29 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:35:29 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:35:29 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: efc0800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:35:29 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:35:29 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: efc0800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:35:44 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:35:44 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:35:44 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 7b98800000000002 0000000004554e53 43085f646973706c 6179045f74637005     {....... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:35:44 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:35:44 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 7b98800000000002 0000000004554e53 43085f646973706c 6179045f74637005     {....... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:35:48 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:35:48 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:35:48 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 7e4c800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ~L...... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:35:48 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:35:48 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 7e4c800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ~L...... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:37:23 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:37:23 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:37:23 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: c11e800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:37:23 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:37:23 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: c11e800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:37:24 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:37:24 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:37:24 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 5304800000000002 0000000004554e53 43085f646973706c 6179045f74637005     S....... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:37:24 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:37:24 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 5304800000000002 0000000004554e53 43085f646973706c 6179045f74637005     S....... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:41:09 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:41:09 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:41:09 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 605e800000000002 0000000004554e53 43085f646973706c 6179045f74637005     `^...... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:41:09 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:41:09 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 605e800000000002 0000000004554e53 43085f646973706c 6179045f74637005     `^...... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:41:10 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:41:10 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:41:10 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: eb91800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:41:10 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:41:10 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: eb91800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:45:21 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:45:21 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:45:21 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 480a800000000002 0000000004554e53 43085f646973706c 6179045f74637005     H....... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:45:21 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:45:21 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 480a800000000002 0000000004554e53 43085f646973706c 6179045f74637005     H....... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:45:21 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:45:21 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:45:21 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: df78800000000002 0000000004554e53 43085f646973706c 6179045f74637005     .x...... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:45:21 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:45:21 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: df78800000000002 0000000004554e53 43085f646973706c 6179045f74637005     .x...... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:47:43 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:47:43 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:47:43 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: a989800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:47:43 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:47:43 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: a989800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:47:43 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:47:43 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:47:43 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 22f7800000000002 0000000004554e53 43085f646973706c 6179045f74637005     "....... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:47:43 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:47:43 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 22f7800000000002 0000000004554e53 43085f646973706c 6179045f74637005     "....... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:48:10 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:48:10 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:48:10 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: f31d800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:48:10 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:48:10 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: f31d800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:48:11 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 1:48:11 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 1:48:11 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 1bff800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 1:48:11 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 1:48:11 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.45:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 1bff800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 2:08:33 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 2:08:33 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 2:08:33 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.201:5353, length=160, id=0x0, flags=0x8000:r]
+   0: db1d800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 2:08:34 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 2:08:34 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.201:5353, length=160, id=0x0, flags=0x8000:r]
+   0: db1d800000000002 0000000004554e53 43085f646973706c 6179045f74637005     ........ .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 2:08:36 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 2:08:36 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 2:08:36 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.201:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 64b9800000000002 0000000004554e53 43085f646973706c 6179045f74637005     d....... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 2:08:36 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 2:08:36 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.201:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 64b9800000000002 0000000004554e53 43085f646973706c 6179045f74637005     d....... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 2:08:37 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+警告: Bad domain name: possible circular name detected. Bad offset: 0x3fff at 0x9e
+四月 23, 2020 2:08:37 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+警告: Could not find record type for index: 65535
+四月 23, 2020 2:08:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record type. domain: 
+dns[response,192.168.30.201:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 30fa800000000002 0000000004554e53 43085f646973706c 6179045f74637005     0....... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 2:08:37 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: 65535
+四月 23, 2020 2:08:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+警告: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,192.168.30.201:5353, length=160, id=0x0, flags=0x8000:r]
+   0: 30fa800000000002 0000000004554e53 43085f646973706c 6179045f74637005     0....... .....UNS C._displ ay._tcp.
+  20: 6c6f63616c0000ff 000104554e534308 5f646973706c6179 045f746370056c6f     local... ...UNSC. _display ._tcp.lo
+  40: 63616c0000210001 0000007800120000 00001c5204554e53 43056c6f63616c00     cal..!.. ...x.... ...R.UNS C.local.
+  60: c02a001000010000 1194003433636f6e 7461696e65725f69 643d7b3039463334     .*...... ...43con tainer_i d={09F34
+  80: 4138322d42313434 2d343146422d4235 31392d3433343636 353335414434337d     A82-B144 -41FB-B5 19-43466 535AD43}
+
+四月 23, 2020 4:49:48 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started Download metadata
+四月 23, 2020 4:49:48 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished Download metadata. 16 ms
+四月 23, 2020 7:34:32 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started Fingerprint cleanup
+四月 23, 2020 7:34:32 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished Fingerprint cleanup. 9 ms
+四月 23, 2020 9:03:12 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started Workspace clean-up
+四月 23, 2020 9:03:12 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished Workspace clean-up. 8 ms
+四月 23, 2020 10:23:43 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Started telemetry collection
+四月 23, 2020 10:23:43 下午 hudson.model.AsyncPeriodicWork lambda$doRun$0
+信息: Finished telemetry collection. 8 ms
